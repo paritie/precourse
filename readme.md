@@ -1,10 +1,10 @@
 # Lesson 1: Git fundamentals
 This is a preparatory course and meant to compliment your efforts towards being worldclass.
 
-###Todo
+##Todo
 
-- Click the Watching icon on the Paritie Organization repository (https://github.com/paritieinternship/web-frontend) for udpates to this repository
-- Read * [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+- Click the Watching icon on the Paritie Organization repository (https://github.com/paritie/precourse) for udpates to this repository
+- Read [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 - Read to the end to find final task.
 - Follow instructions included in this document.
 - Raise an issue in case of any doubt.
@@ -196,5 +196,5 @@ Congratulations! You just pushed your first git commit!
 
   Goodluck.
 
-  ###Credits to LambdaSchool Precourse 
+  ##Credits to LambdaSchool Precourse 
 
