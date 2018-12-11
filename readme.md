@@ -84,7 +84,7 @@ As mentioned before, Github is a central place to store, view, and download repo
 
 ### Forking
 
-Github.com allows users to create their own copy of an repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
+Github.com allows users to create their own copy of a repository (as long as it is public) and do whatever work you would like to that on under your own account. This is called "Forking". Essentially this will create a new branch of the repo, and at a future time you may be able to reincorporate("pull") the changes you have made to this branch with the master branch you forked from.
 
 In order to fork a repo, you will visit the Github repo of your choosing (for this exercise we will be using [this](https://github.com/paritie/precourse) repo). Anywhere within the repo you will see a "Fork" button in the upper right hand corner, click this. Github will take a moment and copy all of the data to your account and it is now available to you to work on. 
 
@@ -95,7 +95,9 @@ In order to work on a project you must clone (download) it to your local machine
 Once you have the address copied, return to your terminal window and enter the following:
 
 ```bash
-  $ cd documents
+  $ mkdir (any name)
+
+  $ cd (created directory)
 
   $ git clone [https://github.com/your-username/precourse] 
 
