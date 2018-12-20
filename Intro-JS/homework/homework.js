@@ -3,7 +3,7 @@
 //create a string variable, it can contain anything
 const newString = null ;
 
-//create a number variable, it an be any number
+//create a number variable, it can be any number
 const newNum = null ;
 
 //create a boolean variable
@@ -125,7 +125,7 @@ function addExclamationPoint(str) {
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
-  // 'Lambda', 'School' -> 'Lambda School'
+  // 'Paritie', 'Dev Bootcamp' -> 'Paritie Dev Bootcamp'
   // code here
 }
 
