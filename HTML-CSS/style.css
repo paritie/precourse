@@ -1,0 +1,25 @@
+body{
+    display: block;
+    text-align: center;
+}
+
+h1{
+    color: chocolate;
+}
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+    border: 1px solid aliceblue;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
