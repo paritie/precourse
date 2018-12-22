@@ -41,15 +41,6 @@ git add . -u
 git commit -m 'Updated to the latest version'
 ```
 
-## Contributing
-This precourse is an open source project and we encourage contributions tailored towrads making this curriculum better. All contributions will be fully credited.
-
-## Using GitHub Issues
-* Feel free to use GitHub issues for questions, bug reports, and feature requests
-* Use the search feature to check for an existing issue
-* Include as much information as possible and provide any relevant resources (Eg. screenshots)
-  
-
 We will cover: 
 
 * Description of version control and Git.
@@ -228,6 +219,14 @@ Congratulations! You just pushed your first git commit!
   * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
   * [Terminal turorial](https://www.davidbaumgold.com/tutorials/command-line/)
 
+## Contributing
+This precourse is an open source project and we encourage contributions tailored towrads making this curriculum better. All contributions will be fully credited.
 
-# Credits to LambdaSchool Precourse 
+## Using GitHub Issues
+* Feel free to use GitHub issues for questions, bug reports, and feature requests
+* Use the search feature to check for an existing issue
+* Include as much information as possible and provide any relevant resources (Eg. screenshots)
+  
+
+## Credits to LambdaSchool Precourse 
 
