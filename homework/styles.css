@@ -1,0 +1,28 @@
+body{
+	background-image:url(bgparitie.jpg);
+	background-attachment: fixed;
+	
+	
+}
+.divClass{
+	color:#000;	
+	}
+img {
+	width:400px;
+	}
+#thirdDiv{
+	height:600px;
+	width:500px;
+	color:#F00;
+	}
+#spanId {
+	font-size:18px;
+	margin:50px;
+	padding:50px;
+	border:thick;
+	width:auto;
+	color:#FF0;
+	}
+div {
+    display: block;
+  }
