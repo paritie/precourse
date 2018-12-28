@@ -1,7 +1,7 @@
 # Git fundamentals
 This is a preparatory course and meant to compliment your efforts towards being worldclass.
 
-##Todo
+## Todo
 
 - Click the Watching icon on the Paritie Organization repository (https://github.com/paritie/precourse) for udpates to this repository
 - Read [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
@@ -29,14 +29,17 @@ This is a preparatory course and meant to compliment your efforts towards being 
 - click pull request tab and click new pull request
 - your journey continues...
 
-## Further reading and tutorials:
+## Updating
+Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
+```git
+git remote add upstream https://github.com/paritie/precourse
+git fetch upstream
+git merge upstream/precourse
 
-  * [Git: official site](https://git-scm.com/)
-  * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
-  * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
-  * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
-  * [Terminal turorial](https://www.davidbaumgold.com/tutorials/command-line/)
-  
+# To resolve the merge conflicts in your editor
+git add . -u
+git commit -m 'Updated to the latest version'
+```
 
 We will cover: 
 
@@ -68,7 +71,7 @@ Git was created in 2005 by Linus Torvalds. Git allows a team to work concurrentl
 
 ## Basic terminal commands:
 
-> We will be using the "terminal" or "command line" throughout your time at Lambda school. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
+> We will be using the "terminal" or "command line" throughout your time. If you are on a Mac or Linux machine, you should have the terminal and git installed already, if you are on a Windows machine I recommend installing ["git-bash"](https://git-for-windows.github.io/).
 
 Within our terminal we can: traverse our file structure, add files, remove files, update files, and tons more! The terminal is a very powerful tool for developers and you will be using it a lot in your professional development career. It might look scary at first, but in time you will enjoy using it. It is best to get accustomed to it now. To begin we will learn the 'basic' commands:
 
@@ -208,6 +211,22 @@ Congratulations! You just pushed your first git commit!
 
   Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows to owner(or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
 
+## Further reading and tutorials:
 
-# Credits to LambdaSchool Precourse 
+  * [Git: official site](https://git-scm.com/)
+  * [Github: official tutorial](https://try.github.io/levels/1/challenges/1)
+  * [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
+  * [Git: official tutorial](https://git-scm.com/docs/gittutorial)
+  * [Terminal turorial](https://www.davidbaumgold.com/tutorials/command-line/)
+
+## Contributing
+This precourse is an open source project and we encourage contributions tailored towrads making this curriculum better. All contributions will be fully credited.
+
+## Using GitHub Issues
+* Feel free to use GitHub issues for questions, bug reports, and feature requests
+* Use the search feature to check for an existing issue
+* Include as much information as possible and provide any relevant resources (Eg. screenshots)
+  
+
+## Credits to LambdaSchool Precourse 
 
