@@ -1,0 +1,30 @@
+body{
+        background: url("../img/bg-1.jpg") no-repeat center top fixed;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+    .divClass{
+        text-align: center;
+    }
+    img{
+        width: 400px;
+    }
+    #thirdDiv{
+        align-content:  center;
+        background: #938771;
+        width: 500px ; 
+        height: 600px ;
+        padding: 50px;
+        border: solid 1px #000;
+    }
+    h1{
+        color: azure;
+    }
+    #spanId{
+        font-size: 18px;
+        margin: 50px;
+    }
