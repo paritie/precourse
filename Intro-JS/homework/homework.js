@@ -1,13 +1,13 @@
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
-const newString = "James" ;
+const newString = "sultan" ;
 
 //create a number variable, it can be any number
-const newNum = 70 ;
+const newNum = 89 ;
 
 //create a boolean variable
-const newBool = true ;
+const newBool = false ;
 
 //solve the following math problem
 const newSubtract = 10 - 5 === 5;
@@ -74,7 +74,10 @@ function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   // code here
-
+  if (str1 == str2) {
+    return true;
+  }
+  return false;
 }
 
 function lessThanNinety(num) {
@@ -183,6 +186,8 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
+  area = (1/2)*base*height;
+  return area;
 }
 
 // Do not modify code below this line.
