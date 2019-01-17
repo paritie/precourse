@@ -1,1 +1,1 @@
-My name is shuaibu Muhammad, i am a javaScript and python developer. I registered for this bootcamp because i wanted to learn and gain more experience.
+My name is shuaib Muhammad, i am a front-end web developer developer. I registered for this bootcamp because i wanted to learn and gain more experience.
