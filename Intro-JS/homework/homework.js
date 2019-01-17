@@ -181,6 +181,8 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
+  area = length * width;
+  return area;
 }
 
 function getTriangleArea(base, height) {
