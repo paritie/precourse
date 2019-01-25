@@ -145,16 +145,22 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
+  Math.pow(num, exponent);
+  return num;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
+  Math.round(num);
+  return num;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
+  Math.ceil(num);
+  return num;
 }
 
 function addExclamationPoint(str) {
@@ -167,12 +173,18 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Paritie', 'Dev Bootcamp' -> 'Paritie Dev Bootcamp'
   // code here
+  firstName = 'shuaib';
+  lastName = 'Muhammad';
+  var fullName = firstName + lastName;
+  return fullName
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
+  concatenate = 'Hello ' + name;
+  return concatenate;
 }
 
 // The next three questions will have you implement math area formulas. 
