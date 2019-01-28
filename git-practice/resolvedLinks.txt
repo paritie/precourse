@@ -1,0 +1,1 @@
+I don't know if its a bit late or not. But what you could do is find the "dompdf_font_family_cache.php" and replace "\" to "/". That hopefully will fix the issue.

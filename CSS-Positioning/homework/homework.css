@@ -8,20 +8,28 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
+  text-align: center;
+  display: block;
 
 }
 
 
 /* Exercise Two: Positioning a Header Bar*/
-
 /* Place code here */
+
+#exerciseTwo{
+  display:none;
+}
 
 
 
 /* Exercise Three: */
 
 /* Place code here */
-
+#exerciseThree{
+    padding-left:200px;
+    padding-top:100px;
+}
 
 
 /* Exercise Four: */
