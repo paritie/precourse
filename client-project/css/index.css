@@ -1,1 +1,64 @@
 /* Should be empty until you compile your LESS */
+.topnav {
+    background-color: rgba(216, 216, 216, 0.712);
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.topnav #myLinks {
+    display: none;
+    text-align: center;
+    Font-Weight: Bold;
+    Font-Size: 48px;
+    Line-Height: 85px;
+    Color: #FFFFFF;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: rgba(216, 216, 216, 0.322);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color:rgba(216, 216, 216, 0.712);
+    font-weight: bold;
+    Font-Size: 24px;
+    Color: #FFFFFF
+}
+
+.containers {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    /* right: 0; */
+    Font-Weight: Bold;
+    Font-Size: 64px;
+    Line-Height: 100px;
+    Color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
