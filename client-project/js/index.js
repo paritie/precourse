@@ -1,14 +1,10 @@
 // JS goes here
+/* Open */
 function Navopen() {
-  var x = document.getElementById("myNav");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-  x.style.width = "100%";
+  document.querySelector(".mylinks").style.height = "100%";
 }
 
+/* Close */
 function Navclose() {
-  document.getElementById("myNav").style.width = "0%";
+  document.querySelector(".mylinks").style.height = "0%";
 }

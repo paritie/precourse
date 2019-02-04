@@ -18,7 +18,7 @@
 <div class="topnav">
 	<header>
 		<h2><a href="#home" class="logo">S&J</a></h2>
-		<a href="javascript:void(0);" onclick="Navopen()"><img  src="/img/nav-hamburger.png"></a>
+		<a><img  src="/img/nav-hamburger.png" onclick="Navopen()" class="dropdown-button"></a>
 		<div class="mylinks" >
 			<img src="/img/nav-hamburger-close.png" class="closebtn" onclick="Navclose()" alt="nav-hamburger">
 			<div class="mylinks-content" id="myNav">
@@ -35,11 +35,11 @@
 <div class="containers">
 	<img src="/img/home/home-jumbotron.png" alt="Jumbotron" style="width:100%;">
 	<div class="text-block">
-		<h2>Integrity,<br>Excellence,<br>Progress.</h2>
+		<h1>Integrity,<br>Excellence,<br>Progress.</h1>
 	</div>
 </div>
 
-<div class="main">
+<div class="main inverse-content">
 	<div class="main1">
 			<h2>Smith & Jones Architects</h2>
 			<p>Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem</p>
@@ -63,10 +63,13 @@
 		</div>
 </div>
 
+<div class="recent-project-title">
+		<h2>Recent Projects</h2>
+</div>
 <div class="main31">
 		<img src="img/home/home-villas-img.png" alt="Modern villas.">
 		<img src="img/home/home-mobile-villas-img.png" alt="Modern villas." class="mobile-img">
-		<div class="text-block1">THE VILLAS</div>
+		<div class="text-block1 text-block2" >THE VILLAS</div>
 </div>
 	<div class="p1">
 		<p>The Villas bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
@@ -74,20 +77,22 @@
 	</div>
 </div>
 
-			<div class="main41">
+			<div class="main31">
 			<img src="/img/home/home-outskirts-img.png" alt="Outskirts">
-			<h3>OUTSKIRTS</h3>
+			<img src="/img/home/home-mobile-outskirts-img.png" alt="Outskirts" class="mobile-img">
+			<div id="outskirts" class="text-block2">OUTSKIRTS</div>
 		</div>
-		<div class="main4">
+		<div class="p1">
 			<p>The Outskirts are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
 			<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
 		</div>
 
-		<div class="main51">
+		<div class="main31">
 			<img src="/img/home/home-the-blocks-img.png" alt="The blocks">
-			<h3>THE BLOCKS</h3>
+			<img src="/img/home/home-mobile-the-blocks-img.png" alt="The blocks" class="mobile-img">
+			<div id="the-blocks" class="text-block2">THE BLOCKS</div>
 		</div>
-		<div class="main5">
+		<div class="p1">
 			<p>The Blocks are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
 			<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
 		</div>
@@ -130,6 +135,7 @@
 	<p>Copyright © 2018 Smith and Jones</p>
 </footer>
 </div>
+	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
 </html>
