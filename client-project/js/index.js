@@ -1,9 +1,14 @@
 // JS goes here
-function myFunction() {
-  var x = document.getElementById("myLinks");
+function Navopen() {
+  var x = document.getElementById("myNav");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
+  x.style.width = "100%";
+}
+
+function Navclose() {
+  document.getElementById("myNav").style.width = "0%";
 }
