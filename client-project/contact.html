@@ -11,7 +11,7 @@
 	</head>
 	<body>
 
-		<header>
+		<header class="header">
 			<h4>S&J</h4>
 			<nav>
 				<ul>
@@ -22,11 +22,11 @@
 			</nav>
 		</header>
 
-		<div class="container">
+		<div class="container contact-jumbotron">
 			<h1>Contact Us</h1>
 		</div>
 
-		<div class="container">
+		<div class="container getInTouch">
 			<form>
 				<h3>Get In Touch</h3>
 				<label for="Email">Email address</label>
@@ -38,30 +38,33 @@
 				<br>
 				<label for="number">How many buildings do you need planned?</label>
 				<br>
-				<input type="number" name="numbers" value="1">
+				<input type="number" name="numbers" min="1" max="5" value="1">
 				<br>
 				<br>
 				<label for="textarea">Provide a brief overview of your project needs:</label>
 				<br>
-				<textarea rows="8" cols="80">Provide a brief overview of your project needs:</textarea>
+				<textarea rows="8" cols="60"></textarea>
 				<br>
 				<br>
 				<label for="business"></label>
-				<input type="radio" name="business" id="small">I am a small business
+				<input type="radio" name="business" id="small">
+				<label for="small">I am a small business</label>
 				<br>
-				<input type="radio" name="business" id="residential">I am a residential owner
+				<input type="radio" name="business" id="residential">
+				<label for="residential">I am a residential owner</label>
 				<br>
-				<input type="radio" name="business" id="corporation">I am a corporation
+				<input type="radio" name="business" id="corporation">
+				<label for="corporation">I am a corporation</label>
 				<br>
 				<br>
-				<button type="submit" name="submit">Submit</button>
+				<button type="submit" class="button" name="submit">Submit</button>
 			</form>
 
 			<aside class="contact-work">
 				<h3>Where We Work</h3>
 				<div>
 		            <ul>
-		                <li><strong>New York</strong></li>
+		                <li><h5>New York</h5></li>
 		                <li>123 Lane</li>
 		                <li>Suite 100</li>
 		                <li>Albany, NY 12345</li>
@@ -71,7 +74,7 @@
 
 				<div>
 		    		<ul>
-		                <li><strong>Florida</strong></li>
+		                <li><h5>Florida</h5></li>
 		                <li>Ocean Drive</li>
 		                <li>Suite 201</li>
 		                <li>Orlando, FL 22345</li>
@@ -81,7 +84,48 @@
 
 				<div>
 		    		<ul>
-		                <li><strong>California</strong></li>
+		                <li><h5>California</h5></li>
+		                <li>Mountain Street</li>
+		                <li>Suite 105</li>
+		                <li>San Diego, CA 22345</li>
+		                <li>702 555 0144</li>
+		            </ul>
+		        </div>
+			</aside>
+		</div>
+
+		<footer>
+			<div class="container container-footer">
+				<div class="col-2">
+					<h5>Interested in starting a project?<br>
+					Let’s talk:</h5>
+					<input type="email" name="email" placeholder="Enter email"><br>
+					<p>We'll never share your email with anyone else.</p>
+				</div>
+
+				<div class="col-1">
+		            <ul class="unstyled-list">
+		                <li><h5>New York</h5></li>
+		                <li>123 Lane</li>
+		                <li>Suite 100</li>
+		                <li>Albany, NY 12345</li>
+		                <li>202 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div class="col-1">
+		    		<ul class="unstyled-list">
+		                <li><h5>Florida</h5></li>
+		                <li>Ocean Drive</li>
+		                <li>Suite 201</li>
+		                <li>Orlando, FL 22345</li>
+		                <li>502 555 0144</li>
+		            </ul>
+		        </div>
+
+				<div class="col-1">
+		    		<ul class="unstyled-list">
+		                <li><h5>California</h5></li>
 		                <li>Mountain Street</li>
 		                <li>Suite 105</li>
 		                <li>San Diego, CA 22345</li>
@@ -89,94 +133,9 @@
 		            </ul>
 		        </div>
 			</div>
-			</aside>
-		</div>
 
-
-
-	<!-- Contactd Us Content
-	  Contact Us
-
-	Get In Touch
-
-	Email Address
-	Enter Email
-	We'll never share your email with anyone else.
-
-	How many buildings do you need planned?
-	1-5
-
-	Provide a brief overview of your project needs:
-
-	I am a small business
-	I am a residential owner
-	I am a corporation
-
-	Submit
-
-	Where We Work
-
-	New York
-	123 Lane
-	Suite 100
-	Albany, NY 12345
-	202 555 0144
-
-	Florida
-	Ocean Drive
-	Suite 201
-	Orlando, FL 22345
-	502 555 0144
-
-	California
-	Mountain Street
-	Suite 105
-	San Diego, CA 22345
-	702 555 0144
-
-	-->
-	<footer>
-		<div class="container container-footer">
-			<div class="col-2">
-				<h5>Interested in starting a project?<br>
-				Let’s talk:</h5>
-				<input type="email" name="email" value="Enter email" placeholder="Enter email"><br>
-				<p>We'll never share your email with anyone else.</p>
-			</div>
-
-			<div class="col-1">
-				<ul class="unstyled-list">
-					<li><strong>New York</strong></li>
-					<li>123 Lane</li>
-					<li>Suite 100</li>
-					<li>Albany, NY 12345</li>
-					<li>202 555 0144</li>
-				</ul>
-			</div>
-
-			<div class="col-1">
-				<ul class="unstyled-list">
-					<li><strong>Florida</strong></li>
-					<li>Ocean Drive</li>
-					<li>Suite 201</li>
-					<li>Orlando, FL 22345</li>
-					<li>502 555 0144</li>
-				</ul>
-			</div>
-
-			<div class="col-1">
-				<ul class="unstyled-list">
-					<li><strong>California</strong></li>
-					<li>Mountain Street</li>
-					<li>Suite 105</li>
-					<li>San Diego, CA 22345</li>
-					<li>702 555 0144</li>
-				</ul>
-			</div>
-		</div>
-
-		<span>Copyright &copy; 2018 Smith and Jones</span>
-	</footer>
+			<span>Copyright &copy; 2018 Smith and Jones</span>
+		</footer>
 
 		<script src="js/index.js"></script>
 	</body>
