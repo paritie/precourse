@@ -12,27 +12,96 @@
 
 <body>
 
-	<h1>Services</h1>
+	<div class="body-container">
+		<div class="topnav">
+			<header>
+				<h2><a href="#home" class="logo">S&J</a></h2>
+				<a><img  src="/img/nav-hamburger.png" onclick="Navopen()" class="dropdown-button"></a>
+				<div class="dropdown" >
+					<img src="/img/nav-hamburger-close.png" class="closebtn" onclick="Navclose()" alt="nav-hamburger">
+					<div class="dropdown-content" id="myNav">
+						<a class="dropdown-link" href="#Home">Home</a>
+						<a class="dropdown-link" href="#contact">Contact</a>
+						<a class="dropdown-link" href="#services">Services</a>
+					</div>
+				</div>
+			</header>
+		</div>
 
-<!-- Services Content 
-  Services
-  
-  Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
--->
+		<div class="img-container">
+			<img src="/img/services/services-jumbotron.png" alt="Jumbotron" style="width:100%;" class="img">
+			<img src="/img/services/services-mobile-jumbotron.png" alt="Jumbotron" class="mobile-img">
+			<div class="text-block">
+				<h1>Services</h1>
+			</div>
+		</div>
 
-<!-- *** NOTE *** Tab Navigator Content: I used the same text for each tab to make it easy, Note that the images and text do change on click but you can just use the same text for each tab element.  All the images should be in the img folder.
+		<div class="services">
+			<p >Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+		</div>
 
-  Pre-Construction
-  Construction
-  Design Build
-  Sustainability
+<!-- *** NOTE *** Tab Navigator Content: I used the same text for each tab to make it easy, Note that the images and text do change on click but you can just use the same text for each tab element.  All the images should be in the img folder.-->
+<!-- Service Tab -->
+<div class="service-buttons">
+	<div data-tab="pre-construct" class="tab">Pre-Construction</div>
+	<div data-tab="construct" class="tab" active>Construction</div>
+	<div data-tab="design" class="tab">Design Build</div>
+	<div data-tab="sustain" class="tab">Sustainability</div>
+</div>
 
-  Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.  Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+<div class="service-container">
+<div class="service-detail" data-tab="pre-construct">
+	<div class="service-text-container">
+		<h2 class="headline">Pre-Construction</h2>
+		<p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+		<p>Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.</p>
+	</div>
+	<div class="service-img-container">
+		<img src="/img/services/services-tab-pre-construction-img.png" alt="Construction drawings."/>
+	</div>
+	<img class="mobile-img" src="/img/services/services-tab-mobile-pre-construction-img.png" alt="Construction drawings."/>
+</div>
+</div>
 
+<div class="address">
+	<div class="address-section contact-form">
+		<h4>Interested in starting a project?
+		<br>Let’s talk:</h4>
 
+		<input type="email" name="emailAddress" placeholder=" Enter email">
 
--->
+		<p>We'll never share your email with anyone else.</p>
+	</div>
 
+	<div class="address-section">
+		<h4>New York</h4>
+		<p>123 Lane</p>
+		<p>Suite 100</p>
+		<p>Albany, NY 12345</p>
+		<p>202 555 0144</p>
+	</div>
+
+	<div class="address-section">
+		<h4>Florida</h4>
+		<p>Ocean Drive</p>
+		<p>Suite 201</p>
+		<p>Orlando, FL 22345</p>
+		<p>502 555 0144</p>
+	</div>
+
+	<div class="address-section">
+		<h4>California</h4>
+		<p>Mountain Street</p>
+		<p>Suite 105</p>
+		<p>San Diego, CA 22345</p>
+		<p>702 555 0144</p>
+	</div>
+</div>
+<footer>
+	<p>Copyright © 2018 Smith and Jones</p>
+</footer>
+</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
 </html>

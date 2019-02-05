@@ -251,7 +251,7 @@ header .logo {
     }
   }
 
-.mylinks {
+.dropdown {
     height: 0;
     width: 100%;
     position: fixed;
@@ -264,14 +264,14 @@ header .logo {
     transition: 0.5s;
 }
 
-.mylinks .mylinks-content {
+.dropdown .dropdown-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 }
-.mylinks a {
+.dropdown a {
     padding: 8px;
     text-decoration: none;
     font-size: 6.4rem;
@@ -281,35 +281,29 @@ header .logo {
     display: block;
     transition: 0.3s;
 }
-.mylinks a:hover,
-.mylinks a:focus {
+.dropdown a:hover,
+.dropdown a:focus {
     color: #222;
 }
-.mylinks .closebtn {
+.dropdown .closebtn {
         position: absolute;
         top: 12px;
         right: 70px;
 }
 
 @media (max-width:500px) {
-    .mylinks .mylinks-content {
+    .dropdown .dropdown-content {
       top: 10%;
     }
-    .mylinks .closebtn {
-      top: 12px;
+    .dropdown .closebtn {
       right: 25px;
+      position: absolute;
+      top: 12px;
+      font-size: 30px;
     }
   }
 
-@media screen and (max-height: 450px) {
-    .mylinks a {font-size: 20px}
-    .mylinks .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  }
-
+  /* Home hero image */
 .containers {
     margin-top: 50px;
     position: relative;
@@ -335,6 +329,56 @@ header .logo {
       left: 3%;
     }
   }
+
+  /* Service hero image */
+.img-container{
+  margin-top: 50px;
+  position: relative;
+}
+
+.img-container .text-block {
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left: 5%;
+}
+
+@media (max-width:500px) {
+  .img-container .text-block {
+    bottom: 28px;
+    left: 3%;
+  }
+  .img-container .text-block h1 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    bottom: 20px;
+    left: 3%;
+  }
+  .img{
+    display:none;
+  }
+
+  .img-container .mobile-img{
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* p tag in service page */
+.services {
+  max-width: 880px;
+  margin: 40px auto;
+}
+@media (max-width:500px) {
+  .services {
+    max-width: 500px;
+    margin: 40px 10px;
+  }
+}
 
 .main {
     max-width: 880px;
@@ -557,6 +601,104 @@ header .logo {
         z-index: 2;
         right: 15px;
         position: absolute;
+    }
+  }
+
+  .service-buttons {
+    max-width: 880px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .service-buttons .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #222;
+    cursor: pointer;
+  }
+  .service-buttons .tab:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  .service-buttons .tab-selected {
+    background-color: #5E9FB9;
+    color: #fff;
+  }
+  @media (max-width:500px) {
+    .service-buttons {
+      max-width: 500px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .service-buttons .tab {
+      margin: 10px 5px;
+      width: 94%;
+    }
+  }
+  .service-container {
+    overflow: hidden;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .service-container .service-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: none;
+  }
+  .service-container .service-detail .service-text-container {
+    width: 46%;
+  }
+  .service-container .service-detail .service-text-container p {
+    padding: 12px 0;
+  }
+  .service-container .service-detail .service-img-container {
+    width: 46%;
+  }
+  .service-container .service-detail .mobile-img {
+    display: none;
+  }
+  .service-container .service-detail-selected {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    transition: visibility 0s, opacity 0.5s linear;
+    opacity: 1;
+    visibility: visible;
+  }
+  @media (max-width:500px) {
+    .service-container .service-container {
+      max-width: 500px;
+    }
+    .service-container .service-detail {
+      max-width: 500px;
+      width: 100%;
+      flex-direction: column;
+    }
+    .service-container .service-detail .service-text-container {
+      width: 94%;
+    }
+    .service-container .service-detail .service-img-container {
+      display: none;
+    }
+    .service-container .service-detail .mobile-img {
+      display: flex;
+      width: 94%;
+      margin: 20px 10px 0px 10px;
     }
   }
 
