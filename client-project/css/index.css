@@ -28,7 +28,7 @@ body{
 .sidebar h4 {
     position: absolute;
     top: 0;
-    left: 8%;
+    left: 10%;
     display: inline-block;
     color: #FFFFFF;
 }
@@ -93,7 +93,7 @@ body{
 }
 
 .header h4 {
-    margin-left: 2.5%;
+    margin-left: 5%;
     display: inline-block;
     color: #FFFFFF;
 }
@@ -101,7 +101,7 @@ body{
 nav {
     display: block;
     float: right;
-    margin-right: 2.5%;
+    margin-right: 5%;
 }
 
 nav li {
@@ -117,7 +117,7 @@ nav li a {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -125,7 +125,7 @@ nav li a {
 
 /*---HOME PAGE ----*/
 .container-home{
-    padding: 1px 2.5%;
+    padding: 1px 5%;
     height: 100vh;
     background-image: url("../img/home/home-jumbotron.png");
     background-repeat: no-repeat;
@@ -176,6 +176,7 @@ h3 {
     border: 1px solid #222222;
     padding: 10px 40px;
     background: #FFFFFF;
+    font-size: 1.1em;
 }
 
 .designs {
@@ -331,7 +332,7 @@ footer span {
 /*====SERVICES PAGE====*/
 
 .services-jumbotron{
-    padding: 1px 2.5%;
+    padding: 1px 5%;
     height: 50vh;
     background-image: url("../img/services/services-jumbotron.png");
     background-repeat: no-repeat;
@@ -405,7 +406,7 @@ footer span {
 /*====CONTACT PAGE====*/
 
 .contact-jumbotron{
-    padding: 1px 2.5%;
+    padding: 1px 5%;
     height: 50vh;
     background-image: url("../img/contact/contact-jumbotron.png");
     background-repeat: no-repeat;
@@ -426,7 +427,7 @@ footer span {
 
 .container form input {
     height: 35px;
-    width: 95%;
+    width: 100%;
     border: 1px solid #828282;
     border-radius: 2px;
     margin-top: 10px;
@@ -455,7 +456,8 @@ footer span {
 
 aside {
     float: right;
-    margin-left: 250px;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 
 aside ul {
@@ -523,8 +525,7 @@ aside li {
     }
     footer span {
         margin-top: 0;
-        margin-left: 8%;
-        padding-bottom: 20px;
+        margin-left: 30%;
         display: block;
         text-align: left;
     }
@@ -578,11 +579,37 @@ aside li {
         transform: none;
     }
 
+/*====CONTACT PAGE====*/
+
+    .contact-jumbotron{
+        padding: 1px 5%;
+        height: 60vh;
+        background-image: url("../img/contact/contact-mobile-jumbotron.png");
+    }
+
+    .contact-jumbotron h1 {
+        padding-top: 235px;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+    .button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    aside {
+        float: none;
+        margin: 0;
+        margin-top: 50px;
+    }
+
 /*====FOOTER====*/
 
     footer {
         top: 1728px;
-        height: 683px;
+        height: 663px;
         background-color: #828282;
         font-weight: normal;
         font-size: 14px;
