@@ -9,6 +9,77 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    min-width: 400px;
+}
+#services-body {
+    padding-bottom: 250px;
+}
+
+.navigator-component,
+.getInTouch,
+.home-container{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*---NAVIGATION ----*/
+
+.sidebar h4 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.sidebar {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(130,130,130,0.9);
+    overflow-y: hidden;
+    transition: 500ms;
+    text-align: center;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 85px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: block;
+    transition: 300ms;
+}
+.sidebar a:hover {
+    color: #222;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 87%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFF;
+}
+
+.openbtn {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+}
+
+.openbtn:hover {
+    cursor: pointer;
 }
 
 /*---HEADER ----*/
@@ -22,15 +93,15 @@ body{
 }
 
 .header h4 {
-    margin-left: 8%;
+    margin-left: 2.5%;
     display: inline-block;
     color: #FFFFFF;
 }
 
 nav {
-    display: inline;
+    display: block;
     float: right;
-    margin-right: 8%;
+    margin-right: 2.5%;
 }
 
 nav li {
@@ -46,14 +117,15 @@ nav li a {
 }
 
 .container {
-    padding: 0 8%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 
 
 /*---HOME PAGE ----*/
 .container-home{
-    padding: 1px 8%;
+    padding: 1px 2.5%;
     height: 100vh;
     background-image: url("../img/home/home-jumbotron.png");
     background-repeat: no-repeat;
@@ -184,12 +256,25 @@ width: auto;
 /*====FOOTER====*/
 
 footer {
+    height: 250px;
     background-color: #828282;
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
     color: #FFFFFF;
     padding-top: 50px;
+}
+
+.services-footer {
+    position: absolute;
+    top: 978px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.home-footer {
+    top: 3476px;
 }
 
 .container-footer {
@@ -219,18 +304,25 @@ footer p {
 .col-2 {
     margin-right: 50px;
     padding-top: 15px;
+    width: 33%;
 }
 
 .col-1 {
     margin-right: 65px;
+    width: 15%;
 }
 
 .col-1 li {
     list-style-type: none;
 }
 
+.unstyled-list {
+    margin: 0;
+    padding: 0;
+}
+
 footer span {
-    margin-top: 100px;
+    margin-top: 10px;
     display: block;
     text-align: center;
 }
@@ -239,7 +331,7 @@ footer span {
 /*====SERVICES PAGE====*/
 
 .services-jumbotron{
-    padding: 1px 8%;
+    padding: 1px 2.5%;
     height: 50vh;
     background-image: url("../img/services/services-jumbotron.png");
     background-repeat: no-repeat;
@@ -255,7 +347,7 @@ footer span {
 }
 
 .container-services {
-    margin: 60px 0;
+    margin-top: 60px;
 }
 
 .tab-navigator {
@@ -274,17 +366,20 @@ footer span {
 
 .navigator h3 {
     margin: 0;
-    padding: 28px 22px;
-    cursor: pointer;
+    padding: 15px 25px;
     transition: 300ms;
 }
 
-.navigator h3:hover {
-    background: #222222;
-    color: #FFFFFF;
+.navigator:hover {
+    cursor: pointer;
+    background: #5E9FB9;
 }
 
-.navigator h3:active {
+.navigator:active {
+    background: #5E9FB9;
+}
+
+.navigator:focus {
     background: #5E9FB9;
 }
 
@@ -299,15 +394,18 @@ footer span {
 
 }
 
-.navigatorImages {
+.services-images {
+    width: 400px;
+    height: 275px;
     float: right;
+    transform: translateY(-250px);
 }
 
 
 /*====CONTACT PAGE====*/
 
 .contact-jumbotron{
-    padding: 1px 8%;
+    padding: 1px 2.5%;
     height: 50vh;
     background-image: url("../img/contact/contact-jumbotron.png");
     background-repeat: no-repeat;
@@ -322,18 +420,13 @@ footer span {
     line-height: 75px;
 }
 
-.getInTouch {
-    margin: 50px 0;
-
-}
-
 .container form {
     display: inline-block;
 }
 
 .container form input {
     height: 35px;
-    width: 100%;
+    width: 95%;
     border: 1px solid #828282;
     border-radius: 2px;
     margin-top: 10px;
@@ -356,7 +449,8 @@ footer span {
 }
 
 .getInTouch {
-    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 aside {
@@ -376,7 +470,10 @@ aside li {
 
 /*===HOME PAGE MOBILE ====*/
 
-@media (max-width: 450px) {
+@media screen and (max-width: 767px) {
+    .sidebar .closebtn {
+        left: 76%;
+    }
     .container-home{
         background-image: url("../img/home/home-mobile-jumbotron.png");
     }
@@ -388,11 +485,9 @@ aside li {
         width: 290px;
         height: 275px;
         margin: 0 auto;
-        float: none;
     }
     .sj,
     .future {
-        float: none;
         width: 100%;
     }
     .button {
@@ -426,15 +521,80 @@ aside li {
     .container-footer {
         flex-flow: column;
     }
-    .col-1 {
-        margin-left: -40px;
-    }
     footer span {
         margin-top: 0;
         margin-left: 8%;
         padding-bottom: 20px;
         display: block;
         text-align: left;
+    }
 
+/*===SERVICES PAGE MOBILE ====*/
+    .services-jumbotron{
+        height: 65vh;
+        background-image: url("../img/services/services-mobile-jumbotron.png");
+    }
+    .services-jumbotron h1 {
+        padding-top: 40vh;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 75px;
+    }
+    .container-services {
+        margin: 30px 0;
+    }
+    .tab-navigator {
+        flex-direction: column;
+    }
+    .navigator {
+        margin-bottom: 40px;
+    }
+    .navigator h3 {
+        margin: 0;
+        padding: 28px 22px;
+        cursor: pointer;
+        transition: 300ms;
+    }
+    .navigator h3:hover {
+        background: #222222;
+        color: #FFFFFF;
+    }
+    .navigator h3:active {
+        background: #5E9FB9;
+    }
+    .navigator-components {
+        margin-bottom: 350px;
+    }
+    .formattedText {
+        width: 100%;
+    }
+    .services-images {
+        width: 290px;
+        height: 290px;
+        overflow: hidden;
+        float: none;
+        margin: 0 auto;
+        transform: none;
+    }
+
+/*====FOOTER====*/
+
+    footer {
+        top: 1728px;
+        height: 683px;
+        background-color: #828282;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-top: 50px;
+    }
+    .services-footer {
+        top: 1728px;
+    }
+    [class^=col-] {
+        width: 100%;
+        padding: 10px 0;
     }
 }

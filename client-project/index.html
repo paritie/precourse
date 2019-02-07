@@ -11,15 +11,17 @@
 		<![endif]-->
 	</head>
 	<body>
-
+		<div id="mySidebar" class="sidebar">
+			<h4>S&J</h4>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/nav-hamburger-close.png" alt=""></a>
+			<a href="index.html">Home</a>
+			<a href="services.html">Services</a>
+			<a href="contact.html">Contact</a>
+		</div>
 		<header class="header">
 			<h4>S&J</h4>
 			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+				<img class="openbtn" onclick="openNav()" src="img/nav-hamburger.png" alt="">
 			</nav>
 		</header>
 		<div class="container container-home">
@@ -27,7 +29,7 @@
 		</div>
 
 
-		<div class="container">
+		<div class="container home-container">
 			<section class="architects">
 				<img src="img/home/home-img-1.png" class="firstHomeImage" alt="Home Image 1">
 				<div class="sj">
@@ -83,7 +85,7 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="home-footer">
 			<div class="container container-footer">
 				<div class="col-2">
 					<h5>Interested in starting a project?<br>

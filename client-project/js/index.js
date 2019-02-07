@@ -18,3 +18,13 @@ function openDescription(evt, descName) {
 
     console.log(evt.currentTarget.className);
 }
+
+function openNav() {
+    document.getElementById("mySidebar").style.height = "100%";
+    document.getElementById("mySidebar").style.paddingTop = "150px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.height = "0";
+    document.getElementById("mySidebar").style.paddingTop = "0";
+}
