@@ -32,20 +32,78 @@ in this folder, you are in the wrong place.
 }
 
 
-/* Exercise Four: */
 
+
+/* Exercise Four: */
 /* Place code here */
+#exerciseFour{
+  position: fixed;
+  top:0;
+  left:0;
+}
+
 
 
 
 /* Exercise Five */
-
 /* Place code here */
+#exerciseFive{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#exerciseFiveItem1, #exerciseFiveItem2, #exerciseFiveItem3 {
+  box-sizing: border-box;
+  flex-basis: 20%;
+}
 
 
 
 /* Exercise Six */
+#exerciseFiveItem3 {
+  order: 1;
+}
+
+#exerciseFiveItem1 {
+  order: 3;
+}
+
+#exerciseFiveItem2 {
+  order: 2;
+}
+
+
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+  flex: wrap;
 }
+
+.items{
+  flex-basis: 20%;
+}
+
+#itemOne{
+  order:4;
+  align-self: flex-end;
+}
+
+#itemTwo{
+  order:3;
+  align-self: flex-start;
+}
+
+#itemThree{
+  order:2;
+  align-self: center;
+}
+#itemFour{
+  order:1;
+  align-self: flex-end;
+}
+
+
