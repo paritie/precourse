@@ -140,6 +140,10 @@ nav li a {
     line-height: 75px;
 }
 
+.button-pure {
+    width: 100%;
+}
+
 section {
     display: inline-block;
 }
@@ -149,9 +153,15 @@ section {
     width: 100%;
 }
 
+.homePictures {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
 .firstHomeImage {
     float: right;
-    margin-left: 50px;
 }
 
 .sj {
@@ -204,7 +214,9 @@ h3 {
     background-color: #D8D8D8;
     width: 250px;
     position: absolute;
-    transform: translate(548px,-50px);
+    right: 0;
+    bottom: 0;
+    display: inline;
     font-weight: lighter;
     font-size: 28px;
     letter-spacing: 5px;
@@ -212,8 +224,7 @@ h3 {
 
 .paragraph {
     width: 40%;
-    padding-top: 50px;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-bottom: 80px;
 }
 
@@ -237,20 +248,24 @@ h3 {
     background-color: #D8D8D8;
     width: 250px;
     position: absolute;
-    transform: translate(548px,-50px);
+    right: 0;
+    bottom: 0;
+    display: inline;
     font-weight: lighter;
     font-size: 28px;
     letter-spacing: 5px;
 }
 
 .mobile-images {
-    width: 100%;
-    height: auto;
+    position: relative;
+    width: 90%;
+    height: 275px;
+    margin: 0 auto;
 }
 
 .stretch-images {
-height: auto;
-width: auto;
+height: 230px;
+width: 100%;
 }
 
 
@@ -470,6 +485,11 @@ aside li {
 
 /*====MEDIA QUERIES====*/
 
+/*===HOME PAGE TABLET ====*/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+} 
 /*===HOME PAGE MOBILE ====*/
 
 @media screen and (max-width: 767px) {
@@ -486,6 +506,10 @@ aside li {
     .secondHomeImage {
         width: 290px;
         height: 275px;
+        float: none;
+    }
+
+    .homePictures {
         margin: 0 auto;
     }
     .sj,
@@ -499,8 +523,8 @@ aside li {
 
     .mobile-images {
         width: 320px;
-        height: 200px;
-        overflow: hidden;
+        height: 310px;
+        overflow-x: hidden;
     }
 
 .stretch-images {
