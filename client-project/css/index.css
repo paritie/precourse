@@ -153,13 +153,6 @@ section {
     width: 100%;
 }
 
-.homePictures {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
-
 .firstHomeImage {
     float: right;
 }
