@@ -53,9 +53,9 @@ table {
 }
 
 html, body {
-	width: 90%;
-	margin: 0 auto;
-    font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+	margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,9 +65,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#navigation {
+	position: fixed;
+	z-index: 1;
+	background-color: #00B7FF;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+}
 
 nav{
-	position: relative;
+	width: 90%;
+	margin: 0 auto;
 	height: 50px;
 	margin-top: 20px;
 }
@@ -89,6 +104,7 @@ nav ul li:first-of-type {
 .logo {
 	position: absolute;
 	right: 0;
+	margin-right: 5%;
 }
 
 .header {
@@ -96,7 +112,7 @@ nav ul li:first-of-type {
 	height: 400px;
 	width: 100%;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .header h1 {
@@ -118,6 +134,10 @@ button {
 	padding: 10px 50px;
 	margin-top: 10px;
 	margin-left: 185px;
+}
+
+button:hover {
+	background-color:#00B7FF;
 }
 
 #content {
