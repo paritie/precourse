@@ -11,10 +11,34 @@
 </head>
 
 <body>
+		<div class="body-container">
+				<div class="topnav">
+					<header>
+						<h2><a href="#home" class="logo">S&J</a></h2>
+						<a><img  src="img/nav-hamburger.png" onclick="Navopen()" class="dropdown-button"></a>
+						<div class="dropdown" >
+							<img src="img/nav-hamburger-close.png" class="closebtn" onclick="Navclose()" alt="nav-hamburger">
+							<div class="dropdown-content" id="myNav">
+								<a class="dropdown-link" href="#Home">Home</a>
+								<a class="dropdown-link" href="#contact">Contact</a>
+								<a class="dropdown-link" href="#services">Services</a>
+							</div>
+						</div>
+					</header>
+				</div>
 
-	<h1>Contact</h1>
+				<!-- Home Page Content-->
+				<div class="containers">
+					<img src="img/contact/contact-jumbotron.png" alt="Jumbotron" style="width:100%;">
+					<div class="text-block">
+							<h1>Contact</h1>
+					</div>
+				</div>
+		</div>
 
-<!-- Contactd Us Content 
+	
+
+ Contactd Us Content 
   Contact Us
   
 Get In Touch
@@ -35,26 +59,35 @@ I am a corporation
 Submit
 
 Where We Work
+<div class="address">
+<div class="address-section">
+		<h4>New York</h4>
+		<p>123 Lane</p>
+		<p>Suite 100</p>
+		<p>Albany, NY 12345</p>
+		<p>202 555 0144</p>
+	</div>
 
-New York
-123 Lane
-Suite 100
-Albany, NY 12345
-202 555 0144
+	<div class="address-section">
+		<h4>Florida</h4>
+		<p>Ocean Drive</p>
+		<p>Suite 201</p>
+		<p>Orlando, FL 22345</p>
+		<p>502 555 0144</p>
+	</div>
 
-Florida
-Ocean Drive
-Suite 201
-Orlando, FL 22345
-502 555 0144
-
-California
-Mountain Street
-Suite 105
-San Diego, CA 22345
-702 555 0144
-
--->
+	<div class="address-section">
+		<h4>California</h4>
+		<p>Mountain Street</p>
+		<p>Suite 105</p>
+		<p>San Diego, CA 22345</p>
+		<p>702 555 0144</p>
+	</div>
+</div>
+<footer>
+	<p>Copyright © 2018 Smith and Jones</p>
+</footer>
+</div>
 
 	<script src="js/index.js"></script>
 </body>
