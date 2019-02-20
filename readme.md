@@ -1,7 +1,13 @@
 ## Requirements to begin
 
-Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
-```git
+- Fork this project
+- launch Command prompt/Terminal
+- Type 
+
+```
+cd documents 
+git clone https://github.com/your-username/precourse
+cd precourse 
 git remote add upstream https://github.com/paritie/precourse
 git remote 
 git fetch upstream
