@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/paritie/precourse.svg?branch=master)](https://travis-ci.org/paritie/precourse)
+
 ## Requirements to begin
 
 - Fork this project
