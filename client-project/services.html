@@ -11,27 +11,117 @@
 </head>
 
 <body>
+		<div class="wrapper">
+				<header>
+				<!-- Menu Content  S&J  Home | Services | Contact -->
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSideMenu()">
+							<img src="img/nav-hamburger.png" alt="" width="30" height="30">
+						</a>
+					</span>
+					
+					<ul class="navbar-nav">
+							<li><a href="#" class="navbar-brand">S&J</li>
+					</ul>
+				</nav>
+			
+				<div id="side-menu" class="side-nav">
+					<a href="#" class="btn-close" onclick="closeSideMenu()"><img src="img/nav-hamburger-close.png" alt=""></a>
+					<a href="index.html" class=" active">Home</a>
+					<a href="services.html" class="">Services</a>
+					<a href="contact.html" class="">Contact</a>
+				</div>
+			</header>
+		
+				<div id="main">
+					<div class="service-jumbotron-section">
+									<h1 class="jumbotron-ul">Services</h1>	
+					</div>
 
-	<h1>Services</h1>
+		<div class="services">
+		<p>
+				Services include: completely synergize resource taxing relationships via premier niche markets. 
+				Professionally cultivate one-to-one customer service with robust ideas. 
+				Dynamically innovate resource-leveling customer service for state of the art customer service.
+		</p>			
+		</div>
 
-<!-- Services Content 
-  Services
-  
-  Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
--->
+		<div class="tab">
+			<!-- Tab links -->
+				<button class="tablinks" onclick="">Pre-Construction</button>
+				<button class="tablinks" onclick="">Construction</button>
+				<button class="tablinks" onclick="">Design Build</button>
+				<button class="tablinks" onclick="">Sustainability</button>
+		</div>	
+		<h3>Construction</h3> <br>
+		<div class="tab-display">
+			<div class="display-section">
+				<p id="paragraph1">
+						Completely synergize resource taxing relationships via premier niche markets. 
+						Professionally cultivate one-to-one customer service with robust ideas. 
+						Dynamically innovate resource-leveling customer service for 
+						state of the art customer service.
+				</p>
 
-<!-- *** NOTE *** Tab Navigator Content: I used the same text for each tab to make it easy, Note that the images and text do change on click but you can just use the same text for each tab element.  All the images should be in the img folder.
+				<p id="paragraph2">
+						Phosfluorescently engage worldwide methodologies with web-enabled technology. 
+						Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. 
+						Completely pursue scalable customer service through sustainable potentialities.					  
+				</p>
+			</div>
 
-  Pre-Construction
-  Construction
-  Design Build
-  Sustainability
-
-  Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.  Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
-
-
-
--->
+			<div class="display-section">
+					<img src="img/services/services-tab-construction-img.png" alt="" class="image">				
+			</div>	
+		</div>
+</div>	<!-- main closing div -->
+<footer>
+		<div class="footer-row">
+			<div class="footer-column contact-form">
+			<h3>Interested in starting a project? Let’s talk:</h3>
+			<form action="#">
+				<input type="text" name="email" id="" placeholder="Enter email">
+			<br>	<span>We'll never share your email with anyone else.</span>
+			</form>				
+			</div>
+	
+			<div class="footer-column">
+			<ul class="footer-nav">
+				<li><h3> New York</h3></li>
+				<li>123 Lane</li>
+				<li>Suite 100</li>
+				<li>Albany, NY 12345</li>
+				<li>202 555 0144</li>
+			</ul>
+			</div>
+				
+			<div class="footer-column">
+					<ul class="footer-nav">
+						<li><h3> Florida</h3></li>
+						<li>Ocean Drive</li>
+						<li>Suite 201</li>
+						<li>Orlando, FL 22345</li>
+						<li>502 555 0144</li>
+					</ul>
+			</div>
+	
+			<div class="footer-column">
+					<ul class="footer-nav">
+						<li><h3> California</h3></li>
+						<li>Mountain Street</li>
+						<li>Suite 105</li>
+						<li>San Diego, CA 22345</li>
+						<li>702 555 0144</li>
+					</ul>
+			</div>
+			</div><!-- closing first footer row -->
+				<div class="footer-copy">
+						<h4>Copyright © 2018 Smith and Jones</h4>
+				</div>
+			</footer>
+	
+		</div> 	<!-- closing wrapper -->
 
 	<script src="js/index.js"></script>
 </body>
