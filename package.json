@@ -1,0 +1,29 @@
+{
+  "name": "paritieprecourse",
+  "version": "1.0.0",
+  "description": "a repo containing materials and assignments",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint JS-VI/homework/homework.js JS-V/homework/homework.js JS-IV/homework/homework.js JS-III/homework/homework.js  JS-II/homework/homework.js Intro-JS/homework/homework.js && jest"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paritie/precourse.git"
+  },
+  "keywords": [
+    "paritie",
+    "precourse"
+  ],
+  "author": "Paritie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paritie/precourse/issues"
+  },
+  "homepage": "https://github.com/paritie/precourse#readme",
+
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "jest": "^22.0.3"
+  }
+}
