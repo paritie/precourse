@@ -2,9 +2,10 @@
 
 ## Requirements to begin
 
+- Click watch icon for notification of changes to this repo.
 - Fork this project
 - launch Command prompt/Terminal
-- Type 
+- Type these 
 
 ```
 cd documents 
