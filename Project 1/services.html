@@ -36,51 +36,117 @@
 		
 				<div id="main">
 					<div class="service-jumbotron-section">
-									<h1 class="jumbotron-ul">Services</h1>	
+							<h1 class="jumbotron-ul">Services</h1>	
 					</div>
+		<!-- services content -->
+		<div class="service-content">
+				<div id="service-content1">
+					<div class="services">
+						<p>
+								Services include: completely synergize resource taxing relationships via premier niche markets. 
+								Professionally cultivate one-to-one customer service with robust ideas. 
+								Dynamically innovate resource-leveling customer service for state of the art customer service.
+						</p>			
+						</div>
+				</div> 
+				<!-- service one closed -->
 
-		<div class="services">
-		<p>
-				Services include: completely synergize resource taxing relationships via premier niche markets. 
-				Professionally cultivate one-to-one customer service with robust ideas. 
-				Dynamically innovate resource-leveling customer service for state of the art customer service.
-		</p>			
-		</div>
+				<div id="service-content2">
+					<div class="tab">
+						<!-- Tab links -->
+							<button class="tablinks" onclick="openImage(event, 'pre-construction')">Pre-Construction</button>
+							<button class="tablinks" onclick="openImage(event, 'construction')">Construction</button>
+							<button class="tablinks" onclick="openImage(event, 'design-build')">Design Build</button>
+							<button class="tablinks" onclick="openImage(event, 'sustainability')">Sustainability</button>
+					</div>	
+				</div>
 
-		<div class="tab">
-			<!-- Tab links -->
-				<button class="tablinks" onclick="">Pre-Construction</button>
-				<button class="tablinks" onclick="">Construction</button>
-				<button class="tablinks" onclick="">Design Build</button>
-				<button class="tablinks" onclick="">Sustainability</button>
-		</div>	
-		<h3>Construction</h3> <br>
-		<div class="tab-display">
-			<div class="display-section">
-				<p id="paragraph1">
-						Completely synergize resource taxing relationships via premier niche markets. 
-						Professionally cultivate one-to-one customer service with robust ideas. 
-						Dynamically innovate resource-leveling customer service for 
-						state of the art customer service.
-				</p>
+				<!-- service 2 closed -->
 
-				<p id="paragraph2">
-						Phosfluorescently engage worldwide methodologies with web-enabled technology. 
-						Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. 
-						Completely pursue scalable customer service through sustainable potentialities.					  
-				</p>
+				<div id="service-content3">
+					<h3>Construction</h3> <br>
+					<div class="tab-display">
+						<div class="display-section">
+							<p id="paragraph1">
+									Completely synergize resource taxing relationships via premier niche markets. 
+									Professionally cultivate one-to-one customer service with robust ideas. 
+									Dynamically innovate resource-leveling customer service for 
+									state of the art customer service.
+							</p>
+			
+							<p id="paragraph2">
+									Phosfluorescently engage worldwide methodologies with web-enabled technology. 
+									Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. 
+									Completely pursue scalable customer service through sustainable potentialities.					  
+							</p>
+						</div>
+			
+				<div class="display-section">
+					<!-- image tab -->
+					<!-- Tab content -->
+			<div id="pre-construction" class="tabcontent" style="display:block;">
+				<picture>
+						<source 
+							media="(min-width: 650px)"
+							srcset="img/services/services-tab-pre-construction-img.png">
+						<source 
+							media="(min-width: 465px)"
+							srcset="img/home/home-mobile-img-1.png">
+						<img src="img/services/services-tab-mobile-pre-construction-img.png" 
+						alt="#">
+				</picture>
 			</div>
-
-			<div class="display-section">
-					<img src="img/services/services-tab-construction-img.png" alt="" class="image">				
-			</div>	
-		</div>
+			
+			<div id="construction" class="tabcontent">
+				<picture>
+						<source 
+							media="(min-width: 650px)"
+							srcset="img/services/services-tab-construction-img.png">
+						<source 
+							media="(min-width: 465px)"
+							srcset="img/home/home-mobile-img-1.png">
+						<img src="img/services/services-tab-mobile-construction-img.png" 
+						alt="#">
+				</picture>
+			</div>
+			
+			<div id="design-build" class="tabcontent">
+				<picture>
+						<source 
+							media="(min-width: 650px)"
+							srcset="img/services/services-tab-design-build-img.png">
+						<source 
+							media="(min-width: 465px)"
+							srcset="img/home/home-mobile-img-1.png">
+						<img src="img/services/services-tab-mobile-design-build-img.png" 
+						alt="#">
+				</picture>
+			</div>
+			
+			<div id="sustainability" class="tabcontent">
+				<picture>
+						<source 
+							media="(min-width: 650px)"
+							srcset="img/services/services-tab-sustainability-img.png">
+						<source 
+							media="(min-width: 465px)"
+							srcset="img/home/home-mobile-img-1.png">
+						<img src="img/services/services-tab-mobile-sustainability-img.png" 
+						alt="#">
+				</picture>
+			</div>
+					<!-- image tab -->
+				</div>	
+				</div>
+				<!-- service 3 closed -->
+				</div>
+		</div> <!-- Closing services content -->
 </div>	<!-- main closing div -->
 <footer>
 		<div class="footer-row">
 			<div class="footer-column contact-form">
 			<h3>Interested in starting a project? Let’s talk:</h3>
-			<form action="#">
+			<form action="#" class="footer-contact">
 				<input type="text" name="email" id="" placeholder="Enter email">
 			<br>	<span>We'll never share your email with anyone else.</span>
 			</form>				

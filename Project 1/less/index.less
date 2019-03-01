@@ -6,55 +6,753 @@ v2.0b1 | 201101
 NOTE:WORK IN PROGRESS
 USE WITH CAUTION AND TEST WITH ABANDON */
 
-html,body,div,span,applet,object,iframe,
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,
-a,abbr,acronym,address,big,cite,code,
-del,dfn,em,img,ins,kbd,q,s,samp,
-small,strike,strong,sub,sup,tt,var,
-b,u,i,center,
-dl,dt,dd,ol,ul,li,
-fieldset,form,label,legend,
-table,caption,tbody,tfoot,thead,tr,th,td,
-article,aside,canvas,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section,summary,
-time,mark,audio,video{
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  font:inherit;
-  vertical-align:baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{
-  display:block;
-}
-body{
-  line-height:1;
-}
-ol,ul{
-  list-style:none;
-}
-blockquote,q{
-  quotes:none;
-}
-blockquote:before,blockquote:after,
-q:before,q:after{
-  content:’’;
-  content:none;
-}
-ins{
-  text-decoration:none;
-}
-del{
-  text-decoration:line-through;
-}
+// html,body,div,span,applet,object,iframe,
+// h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+// a,abbr,acronym,address,big,cite,code,
+// del,dfn,em,img,ins,kbd,q,s,samp,
+// small,strike,strong,sub,sup,tt,var,
+// b,u,i,center,
+// dl,dt,dd,ol,ul,li,
+// fieldset,form,label,legend,
+// table,caption,tbody,tfoot,thead,tr,th,td,
+// article,aside,canvas,details,figcaption,figure,
+// footer,header,hgroup,menu,nav,section,summary,
+// time,mark,audio,video{
+//   margin:0;
+//   padding:0;
+//   border:0;
+//   outline:0;
+//   font-size:100%;
+//   font:inherit;
+//   vertical-align:baseline;
+// }
+// /* HTML5 display-role reset for older browsers */
+// article,aside,details,figcaption,figure,
+// footer,header,hgroup,menu,nav,section{
+//   display:block;
+// }
+// body{
+//   line-height:1;
+// }
+// ol,ul{
+//   list-style:none;
+// }
+// blockquote,q{
+//   quotes:none;
+// }
+// blockquote:before,blockquote:after,
+// q:before,q:after{
+//   content:’’;
+//   content:none;
+// }
+// ins{
+//   text-decoration:none;
+// }
+// del{
+//   text-decoration:line-through;
+// }
 
-table{
-  border-collapse:collapse;
-  border-spacing:0;
-}
+// table{
+//   border-collapse:collapse;
+//   border-spacing:0;
+// }
 
 /* Your Code Goes Here */
+
+/* Should be empty until you compile your LESS */
+@background-color:#FFFFFF;
+@text-color:#222222;
+@font-family: "Roboto", Arial, sans-serif;
+body{
+  background: @background-color;
+  color: @text-color;
+  font-family: @font-family;
+  overflow-x: hidden;
+  margin:0px;
+}
+
+/* nav styles */
+.navbar{
+  background-color:rgb(127, 129, 128);
+  overflow: hidden;
+  height: 60px;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+    a{
+    float:right;
+    display:block;
+    color:#f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  a:hover{
+    background-color:#ddd;
+    color:#000; 
+  }
+
+}
+
+/* navbar styles */
+.navbar-nav{
+  float:left;
+  margin:3px 0 0 0;
+  font-size: 24px;
+  list-style-type: none;
+  color:#FFFFFF;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* side navigation */
+.side-nav{
+  height:100%;
+  width: 0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  right:0;
+  background-color: #111;
+  opacity:0.9;
+  overflow-x: hidden;
+  padding-top:60px;
+  transition:0.5s;
+  /* styles for navigation menu when expanded */
+  font-weight: bold;
+  line-height: 85px;
+  color:@background-color;
+  font-size: 48px;
+  a{
+    padding:10px 10px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    color:#ccc;
+    display:block;
+    transition: 0.3s;
+  
+  }
+  
+  a:hover{
+  color: @text-color;
+}
+  .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left:50px;
+  }
+}
+
+
+/* main styles */
+#main{
+  transition:margin-left 0.5s;
+  padding:0px;
+  margin-top:3.6em;
+  overflow: hidden;
+  width: 100%;
+
+  /* style for anchors within main div */
+   a{
+  text-decoration: none;
+  color: #111;
+}
+
+ a:hover{
+  text-decoration: none;
+  color:green;
+  background-color: seashell;
+}
+}
+
+
+/* jumbroton styles */
+.jumbotron-section(@background-image:url('../img/home/home-jumbotron.png')){
+  background-image:@background-image;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display: flex;
+  align-items: flex-end;
+  height: 598px;
+  width: auto;
+    .jumbotron-ul{
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: bold;
+    color: @background-color;
+  }
+}
+
+.jumbotron-section{
+  .jumbotron-section
+}
+
+.design-section h3, .archi-section h3{
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #8b8a8a;
+  width: 200px;
+  padding:5px 0px 5px 0px;
+  margin-top: 20px;
+  color: #D8D8D8; 
+}
+
+
+.archi-section{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+}
+
+/* S&J architecture styles */
+.archi-section-content1, .archi-section-content2{
+  box-sizing: border-box;
+  flex-basis: 45%;
+  justify-content: center;
+}
+
+.archi-section-content1{
+  order: 2;
+}
+
+.archi-section-content2{
+  order: 1;
+}
+
+/* design section */
+.design-section{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+#design-section-content{
+  box-sizing: border-box;
+  flex-basis: 45%;
+  justify-content: center;
+}
+
+/* Recent Projects styles */
+.recent-projects{
+  margin:40px;
+  h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;  
+  }
+    /* all the h3 within recent project div have the same styling */
+  h3{
+    border: 2px solid rgb(255, 254, 254);
+    background-color: #ddd;
+    padding:30px;
+    color:black;
+  }
+}
+
+/* for all the images */
+img{ 
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Alignment of text within this divs varies  */
+.villas-project, .outskirt-project, .blocks-project{
+  position: relative;
+}
+.bottomtext{
+  position: absolute;
+  bottom: -2.5em;
+  right: 0px;
+  font-size: 18px;
+}
+.outskirttext{
+  position: absolute;
+  bottom: -2.5em;
+  left: 0px;
+  font-size: 18px;
+}
+
+.blockstext{
+  position: absolute;
+  bottom: -2.5em;
+  right: 0px;
+  font-size: 18px;
+}
+
+
+/* Service stytles */
+/* service jumbroton */
+.service-jumbotron-section{
+  .jumbotron-section(url('../img/services/services-jumbotron.png'));
+}
+
+
+.service-content{
+  margin: 50px;
+}
+
+.service-content2{
+  display: flex;
+  justify-content: space-around;    
+  align-items: center;
+}
+
+.tablinks{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.9em;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  /* Style the buttons that are used to open the tab content */
+    button {
+    background-color:  #5E9FB9;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #fff;
+  }
+
+    /* Change background color of buttons on hover */
+  button:hover {
+    background-color: @text-color;
+  }
+      /* Create an active/current tablink class */
+    button.active {
+      background-color: #ccc;
+    }
+}
+
+
+.tab-display{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;    
+}
+
+.display-section{
+  box-sizing: border-box;
+  flex-basis: 50%;
+  line-height: 1.9em;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/* Service styles */
+
+
+/* Contact Style */
+.contact-jumbotron-section{
+  .jumbotron-section(url('../img/contact/contact-jumbotron.png'));
+}
+
+
+.contact-section{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+#contact-details{
+  box-sizing: border-box;
+  flex-basis: 30%;
+  line-height: 1.5em;   
+}
+
+.form-contact{
+  display: block;
+  width: 100%;
+  line-height: 2em;
+  padding: 2px;
+}
+.contact-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.contact-column{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.5em;    
+}
+
+.contact-section{
+  padding: 10px;
+}
+.contact-section{
+  input[type="submit"]{
+  padding: 10px 50px 10px 50px;
+  border: 1px solid #ddd;
+  background-color: whitesmoke;
+  color: black;
+  }
+  input[type = "text"]{
+    width: 100%;
+    border: 1px solid rgb(211, 208, 208);
+    height: 40px;
+    padding: 2px;
+  }
+  span{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(207, 205, 205);
+  }
+
+  select{
+    width: 100%;
+    border: 1px solid rgb(211, 208, 208);
+    height: 40px;
+  }
+
+  textarea{
+    width: 100%;
+    border: 1px solid rgb(211, 208, 208);
+    height: 100px;
+  }
+
+  input[type="radio"]{
+    border: 1px solid rgb(211, 208, 208);
+    height: 15px;
+    font-weight: lighter;
+    padding: 2px;
+  }
+
+}
+
+/* Contact Style */
+
+/* footer section */
+footer{
+  background-color: #828282;    
+}
+
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  padding-left: 30px;
+}
+
+.footer-column{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.9em;
+  font-weight: Regular;
+  font-size: 14px;
+  color:@background-color;
+  margin-top: 15px;
+  h3{
+    margin: 0;
+    font-weight: Regular;
+    font-size: 20px;
+    line-height: 24px;
+    color: @background-color;
+  }
+}
+
+.contact-form{
+  margin-top:15px;
+  padding:15px;
+}
+
+
+.footer-nav{
+  display:flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-copy{
+  width: 100%;
+  text-align:center;
+  color: white;
+}
+
+.footer-contact input[type="text"]{
+background:rgb(255, 253, 255);
+border:2px solid #faf9f9;
+color:#efff;
+font-size:15px;
+font-weight:bold;
+  padding:4px 15px;
+  height: 30px;
+margin-top:1px;
+}
+
+
+@media (min-width:640px){
+   /* project paragraph stytles */
+.project-paragraph{
+  align-items: center;
+  padding-left:400px;
+  padding-right:400px;
+      }
+}
+
+
+/* mobile design */
+@media (max-width: 640px) and (min-width: 320px){
+/* jumbroton image on mobile devices */
+.jumbotron-section(@background-image: url('../img/home/home-mobile-jumbotron.png')){
+  background-image: @background-image;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display: flex;
+  align-items: flex-end;
+  height: 598px;
+  width: auto;
+}
+
+/* changing images for small devices  */
+.archi-section{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin: 5px;
+      flex-direction: column;
+  }
+  .archi-section-content1{
+      order: 1;
+  }
+  .archi-section-content2{
+      order: 2;
+  }
+
+  /* design section */
+  .design-section{
+      display: flex;
+      justify-content: space-around;
+      margin: 5px;
+      flex-direction: column;
+  }
+  
+  .design-section h3, .archi-section h3{
+      font-size: 20px;
+      text-decoration: none;
+      border: 2px solid #222222;
+      text-align: center;
+      padding-left:80px;
+      padding-right:80px;
+      margin-top: 5px;
+      color: #D8D8D8;
+  }
+
+/* Recent Projects styles */
+.recent-projects{
+  margin:20px; 
+    h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;  
+  }
+/* all the h3 within recent project div have the same styling */
+
+  h3{
+  border: 2px solid rgb(255, 254, 254);
+  background-color: #ddd;
+  padding:30px;
+  color:black;
+  min-width: 100%;
+}
+}
+
+/* for all the images */
+img{ 
+  width: 100%;
+  height: auto;
+}
+
+/* Alignment of text */
+.villas-project, .outskirt-project, .blocks-project{
+  position: relative;
+}
+.bottomtext,  .blockstext{
+  position: absolute;
+  bottom: -2.5em;
+  right: 80px;
+  font-size: 18px;
+}
+.outskirttext{
+  position: absolute;
+  bottom: -2.5em;
+  left: 80px;
+  font-size: 18px;
+}
+
+
+/* project paragraph stytles */
+.project-paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+}
+.paragraph{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.5em;   
+}
+
+/* Service stytles */
+/* service jumbroton */
+
+.service-jumbotron-section{
+ .jumbotron-section(url('../img/services/services-mobile-jumbotron.png'));
+}
+
+.service-content{
+  margin: 5px;
+}
+
+/* Style the tab */
+.tab {    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  /* Style the buttons that are used to open the tab content */
+    button {
+  background-color:  #5E9FB9;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #fff;
+}
+  /* Change background color of buttons on hover */
+  button:hover {
+    background-color:  @text-color;
+  }
+
+  /* Create an active/current tablink class */
+    button.active {
+  background-color: #ccc;
+}
+
+}
+
+.tablinks{
+  box-sizing: border-box;
+  min-width: 100%;
+  line-height: 1.5em;   
+}
+
+.tab-display{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;    
+}
+
+.display-section{
+  box-sizing: border-box;
+  flex-basis: 50%;
+  line-height: 1.9em;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/* Service styles */
+
+
+
+/* Contact Style */
+.contact-jumbotron-section{
+  .jumbotron-section(url('../img/contact/contact-mobile-jumbotron.png'));
+}
+
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-section input[type="submit"]{
+  min-width: 100%;
+  padding: 10px 60px 10px 60px;
+  border: 1px solid #ddd;
+  background-color: whitesmoke;
+  color: black;
+}
+
+#contact-details{
+  box-sizing: border-box;
+  flex-basis: 45%;
+  line-height: 1.5em;       
+}
+
+.contact-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+.contact-column{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.5em;
+        ul{
+    text-align: left;
+    list-style-type: none;
+  }
+}
+/* Contact Style */
+
+/* footer mobile styles */
+.footer-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+
+.footer-column{
+  box-sizing: border-box;
+  flex-basis: 25%;
+  line-height: 1.5em;    
+}
+
+}
