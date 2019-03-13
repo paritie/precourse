@@ -1,0 +1,46 @@
+body{
+    /* The image used */
+     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sEfmN0sX-dqPjB48xCFg4bZsWLtRTnCvim936t7M8rDdkTTe');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+    justify-content:center;
+    align-items:center
+  }
+
+
+h1{
+    color: gold;
+    }
+
+   #thirdDiv{
+        height: 600px;
+        width: 500px;
+        background-color: honeydew;
+        padding: 50px;
+        border: 2px solid goldenrod;
+    }
+
+     img{
+        width:400px;
+    }
+
+   #spanId{
+        font-size: 18px;
+        margin: 50px;
+
+    }
+
+    li{
+        list-style-type: none;
+    }

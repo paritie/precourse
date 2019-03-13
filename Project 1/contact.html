@@ -11,50 +11,147 @@
 </head>
 
 <body>
+		<div class="wrapper">
+				<header>
+				<!-- Menu Content  S&J  Home | Services | Contact -->
+				<nav class="navbar">
+					<span class="open-slide">
+						<a href="#" onclick="openSideMenu()">
+							<img src="img/nav-hamburger.png" alt="" width="30" height="30">
+						</a>
+					</span>
+					
+					<ul class="navbar-nav">
+							<li><a href="#" class="navbar-brand">S&J</li>
+					</ul>
+				</nav>
+			
+				<div id="side-menu" class="side-nav">
+					<a href="#" class="btn-close" onclick="closeSideMenu()"><img src="img/nav-hamburger-close.png" alt=""></a>
+					<a href="index.html" class=" active">Home</a>
+					<a href="services.html" class="">Services</a>
+					<a href="contact.html" class="">Contact</a>
+				</div>
+			</header>
+		
+				<div id="main">
+					<div class="contact-jumbotron-section">
+									<h1 class="jumbotron-ul">Contact</h1>	
+					</div>
 
-	<h1>Contact</h1>
+		<div class="contact-section">
+		<div id="contact-details">
+			<h3>Get In Touch</h3>
+			<form action="#" class="form-contact">
+			<input type="text" name="email" id="" placeholder="Enter email">
+			<br>	
+			<span>We'll never share your email with anyone else.</span>
+			<br>
+			How many buildings do you need planned? 1-5 <br>
+			<select>
+				<option value="one">1</option>
+				<option value="two">2</option>
+				<option value="three">3</option>
+				<option value="four">4</option>
+				<option value="five">5</option>
+			  </select>
+			  <br><br>
+			Provide a brief overview of your project needs: <br>
+			<textarea name="" id=""></textarea> <br>
 
-<!-- Contactd Us Content 
-  Contact Us
-  
-Get In Touch
+			<input type="radio" name="typeOfBiz" id="">I am a small business <br>
+			<input type="radio" name="typeOfBiz" id="">I am a residential owner <br>
+			<input type="radio" name="typeOfBiz" id="">I am a corporation <br>
+				<br>
+			<input type="submit" value="Submit">
+			</form>
+			
+		</div>
 
-Email Address
-Enter Email
-We'll never share your email with anyone else.
+		<div id="contact-details">
+			<div class="contact-row">
+			<h3>Where We Work</h3>
+				<div class="contact-column">
+						<ul class="footer-nav">
+							<li><h3> New York</h3></li>
+							<li>123 Lane</li>
+							<li>Suite 100</li>
+							<li>Albany, NY 12345</li>
+							<li>202 555 0144</li>
+						</ul>
+				</div>
+							
+						<div class="contact-column">
+								<ul class="footer-nav">
+									<li><h3> Florida</h3></li>
+									<li>Ocean Drive</li>
+									<li>Suite 201</li>
+									<li>Orlando, FL 22345</li>
+									<li>502 555 0144</li>
+								</ul>
+						</div>
+				
+						<div class="contact-column">
+								<ul class="footer-nav">
+									<li><h3> California</h3></li>
+									<li>Mountain Street</li>
+									<li>Suite 105</li>
+									<li>San Diego, CA 22345</li>
+									<li>702 555 0144</li>
+								</ul>
+						</div>
+					
+			</div>	<!-- closing div for contact row -->
+		</div>
+		</div><!-- closing contact section -->
+</div>	<!-- main closing div -->
+<footer>
+		<div class="footer-row">
+			<div class="footer-column contact-form">
+			<h3>Interested in starting a project? Let’s talk:</h3>
+			<form action="#" class="footer-contact">
+				<input type="text" name="email" id="" placeholder="Enter email">
+			<br>	<span>We'll never share your email with anyone else.</span>
+			</form>				
+			</div>
+	
+			<div class="footer-column">
+			<ul class="footer-nav">
+				<li><h3> New York</h3></li>
+				<li>123 Lane</li>
+				<li>Suite 100</li>
+				<li>Albany, NY 12345</li>
+				<li>202 555 0144</li>
+			</ul>
+			</div>
+				
+			<div class="footer-column">
+					<ul class="footer-nav">
+						<li><h3> Florida</h3></li>
+						<li>Ocean Drive</li>
+						<li>Suite 201</li>
+						<li>Orlando, FL 22345</li>
+						<li>502 555 0144</li>
+					</ul>
+			</div>
+	
+			<div class="footer-column">
+					<ul class="footer-nav">
+						<li><h3> California</h3></li>
+						<li>Mountain Street</li>
+						<li>Suite 105</li>
+						<li>San Diego, CA 22345</li>
+						<li>702 555 0144</li>
+					</ul>
+			</div>
+			</div><!-- closing first footer row -->
+				<div class="footer-copy">
+						<h4>Copyright © 2018 Smith and Jones</h4>
+				</div>
+			</footer>
+	
+		</div> 	<!-- closing wrapper -->
 
-How many buildings do you need planned?
-1-5
-
-Provide a brief overview of your project needs:
-
-I am a small business
-I am a residential owner
-I am a corporation
-
-Submit
-
-Where We Work
-
-New York
-123 Lane
-Suite 100
-Albany, NY 12345
-202 555 0144
-
-Florida
-Ocean Drive
-Suite 201
-Orlando, FL 22345
-502 555 0144
-
-California
-Mountain Street
-Suite 105
-San Diego, CA 22345
-702 555 0144
-
--->
 
 	<script src="js/index.js"></script>
 </body>

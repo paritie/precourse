@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.wrapper{
+	width:100%;
+	padding:10px;
+}
+
+h3{
+	font-weight: bolder;
+}
+
+.header{
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	position: fixed;
+	top:0;
+	left:0;
+	}
+
+.header ul{
+	-webkit-box-pack:center;
+}
+
+.header ul li{
+   display:inline-block;
+   margin-bottom:2.3%;
+   padding:58px;
+   padding-top:5px;
+   padding-bottom:5px;
+   color: green;
+   background-color: cornsilk;
+
+}
+
+.header ul li:hover{
+	color: chartreuse;
+	background-color: whitesmoke;
+ }
+
+#header-text{
+	font-weight: bolder;
+	font-size: 50px;
+	padding:5px;
+	line-height: 1.5em;
+}
+
+#getStarted{
+	border: 2px solid green;
+	padding:10px;
+}
+
+.header-column{
+	text-align: center;
+	padding:10px;
+	margin-top:100px;
+	float:left;
+	width:40%;
+}
+
+.header-row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.row1-column{
+	padding: 15px;
+	margin-top:10px;
+	text-align: justify;
+	float:left;
+	width:50%;
+}
+.content-row1:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.middle-img{
+	max-width:100%;
+	height: auto;
+}
+
+.row2-column{
+	float:left;
+	width:33.3%;
+	padding: 5px;
+	margin-top:10px;
+	text-align: justify;
+}
+.content-row2:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+.footer li{
+	padding:3px;
+}
+#copyright{
+	text-align:center;
+}
+
+@media only screen and (max-width:768px){
+	.header ul li{
+		display:inline-block;
+		margin-bottom:2.3%;
+		padding:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+	 }
+	 
+}
