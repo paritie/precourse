@@ -42,7 +42,7 @@ III. Create an external style sheet and move all of our previous style rules int
   D. Place: --> after your closing style tag.
   E. Add a link tag to your html that imports your new css file. 
 
-IV. Add, Commit and push your work to your github account.
+IV. Add, Commit and push your work to your copy of 'precourse' on github and create a new pull request.
 
 Extra credit:   
   In order to do some of this you will either need to have an understanding of CSS currently, or will need to 
