@@ -13,7 +13,7 @@ git remote add upstream https://github.com/paritie/precourse
 
 ```
 
-Follow the precourse in this order:
+# Follow the precourse in this order:
 
 - HTML-CSS
 - CSS Positioning
@@ -31,8 +31,7 @@ Follow the precourse in this order:
 
 Attempt project 1 - 3 to assess your skills
 
-
-#To confirm & update configurations/commits from parent(upstream)
+# To confirm & update configurations/commits from parent(upstream)
 
 ```
 git remote 
@@ -40,7 +39,7 @@ git fetch upstream
 git merge upstream/precourse
 ```
 
-# To resolve the merge conflicts in your editor
+# To resolve the merge conflicts
 
 ```
    git add . -u
