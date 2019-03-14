@@ -1,0 +1,45 @@
+VARIABLES: These are one of the most imortant things that make up Javascript. Variable is a way of saving the value of something that you'll need/use later on in your code. See it like a closet where you keep some of your clothes for later use. A variable is made up of some important parts, they are; the keyword which is "var", then space followed by name giving to the variable, note that the name giving to the variable should describe whatever value you're assigning to the variable. For example, var Gender = 'Female'. Afterr the variable name comes the equal '=' sign. Which is like an assignment. Then the value to be assigned to the variable for example the 'Female' in var Gender = 'Female' is the value assigned to the Variable name Gender. Lastly, a semi colon to mark the end of your statement. In Javascript, a semi colon ';' is seen as a 'period' or full stp '.'
+
+
+
+
+STRING: A string in Javascript is like your english word, say 'come' or 'comb'. This word can be anything, from the name of a person to the name of ann animal, city, object or anything thing at all and is enclosed in a single or double quote. That is, it must be between a quote like this 'Hello' or "Hello". This two are still the same. But if it doesnt have any quote around it and it looks like this Hello then it is not a string. 
+
+
+
+
+FUNCTIONS:
+ A function is a wayy of making your variables and strings work. 'function' is a keyword for declaring functions just like var is the keyword in variable. Typing 'function' (without the quote) is a way of telling your computer's operating system that what comes after this keyword is a function and should be treated as such. After this comes the name of the function, and just like with variables, the function name should decribe what the function does. Then it is followed by parentheses (). Note that there is no space between the function name and the parentheses. Then opening and closing curly braces {} follow. All the function codes go into this curly braces. That is, the code that instructs the operating system on the function to carry out is written between these curly braces. 
+Below is an example of a function;
+function logsHello() {
+        console.log('hello');
+    }
+
+    logsHello();
+```
+From the code 'function' is the keyword, logsHello is the name of the function. In between the curly braces is the console.log keyword which is what prints out whatever you have in the parentheses in front of it. We'll touch that in subsequent lessons. Note that it is iportant to always include your parenthesis in your function. Because your function needs it to work. 
+Under functions we have arguments, they are variables that we add inside the parentheses that follows function name of the function that we declare. Arguments can be more than one, in which case you add a comma to seperate the arguments to indicate that they are different. 
+Here's an example;
+```javascript
+    function addsTwoNumbers(a, b) {
+      const sum = a + b;
+      return sum;
+    }
+
+    addsTwoNumbers(1, 5); // 6
+RETURN: Earlier i mentioned that console.log is a way of printing out what you have in a parentheses but not everything that comes out of the function should be console.log 'ed. The return statement does something similar to console.log. So we can use it to return somethings. Think of the return statement as the only way for data to escape a function.
+
+
+
+
+
+IF STATEMENT:
+ This statement falls under the control flow and comparison operator. Control flow is a way of checking if something is true. The operating system will carry out the instruction in the code if it is true. But if it false, it ignores the instruction and moves on to executing the subsequent codes. 
+
+
+
+BOOLEAN:
+ Boolean comes from low level computer science which is machine language as a result it powers binary code which is 0,1. This basically means you have two options, to either pick yes or no, 0 or 1, on or off. In javascript however, we use boolean to mean true or false which is also just two options. Here's an example;
+```javascript
+    const iLoveJavascript = true;
+```
