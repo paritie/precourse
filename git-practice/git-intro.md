@@ -12,23 +12,6 @@ This is a preparatory course and meant to compliment your efforts towards being 
 - Add a short summary of your skill set and why you have opted for this programme inside the your-first-name.md file inside the git-practice folder.
 - The updated your-first-name.md file should be included inside the git-practice folder before submitting a pull request.
 
-## Steps to create a Pull request
-
-- Fork this project
-- Ensure your computer is configured for git operations (git config --global user.name your-name && git config --global user.email your-name@gmail.com)
-- launch cmd & type git clone https://github.com/your-username/precourse
-- on completion, launch your editor (vs code, sublime text, etc)
-- follow the instructions for the task and save your input
-- go back to step 3
-- type cd precourse 
-- git status; git will display the current status of tracked filed to be modified
-- git add . 
-- git commit -m "task submission, your-first-name
-- git push -u origin master 
-- visit https://github.com/paritie/precourse
-- click pull request tab and click new pull request
-- your journey continues...
-
 We will cover: 
 
 * Description of version control and Git.
@@ -198,6 +181,19 @@ Congratulations! You just pushed your first git commit!
 ## Pull Requests
 
   Once you have completed the changes you intend to make, it will be time to merge those changes with the master branch. If you are not making changes directly to your own repository, you will need to submit a "Pull Request" or "PR" as we will refer to it. This allows to owner(or manager/supervisor/lead/senior) of the original repo to look over the changes and decide if they want to include these changes in their master. We will do this through Github.
+
+## Steps to create a Pull request
+
+- Fork https://github.com/paritie/pull-request-challenge
+- Ensure your computer is configured for git operations (git config --global user.name your-name && git config --global user.email your-name@gmail.com)
+- launch cmd & type git clone https://github.com/your-username/pull-request-challenge
+- on completion, launch your editor (vs code, sublime text, etc)
+- follow the instructions for the task and save your input
+- go back to step 3
+- type cd pull-request-challenge
+- git status; git will display the current status of tracked filed to be modified
+- follow the instructions in the readme.md file 
+- your journey continues...
 
 ## Further reading and tutorials:
 
