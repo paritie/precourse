@@ -15,10 +15,9 @@ git remote add upstream https://github.com/paritie/precourse
 
 # Follow the precourse in this order:
 
+- GIT Practice
 - HTML-CSS
 - CSS Positioning
-- DOM
-- Git practice
 - Intro-JS
 - JS-1
 - JS II
@@ -28,6 +27,7 @@ git remote add upstream https://github.com/paritie/precourse
 - JS - VI
 - JS - VII
 - JS - VIII
+- DOM
 
 Attempt project 1 - 3 to assess your skills
 
