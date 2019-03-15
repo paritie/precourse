@@ -2,6 +2,10 @@
   STEP 0: Create an empty array called 'toDoItems'.
 */
 
+var toDoItems = [];
+
+console.log(toDoItems);
+
 // code here
 
 /* 
@@ -9,7 +13,12 @@
           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML property,
           add your name to the END of the current innerHTML.
 */
+const p = document.querySelector('#createdBy');
+    console.log(p.innerHtml) // This is the text between the <p></p> tags
 
+    p.innerHTML = 'This app was created by: Omowumi Samson';
+
+    console.log(p.innerHTML);
 // code here
 
 /* 

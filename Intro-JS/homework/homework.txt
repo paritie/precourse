@@ -1,9 +1,11 @@
-VARIABLES: These are one of the most imortant things that make up Javascript. Variable is a way of saving the value of something that you'll need/use later on in your code. See it like a closet where you keep some of your clothes for later use. A variable is made up of some important parts, they are; the keyword which is "var", then space followed by name giving to the variable, note that the name giving to the variable should describe whatever value you're assigning to the variable. For example, var Gender = 'Female'. Afterr the variable name comes the equal '=' sign. Which is like an assignment. Then the value to be assigned to the variable for example the 'Female' in var Gender = 'Female' is the value assigned to the Variable name Gender. Lastly, a semi colon to mark the end of your statement. In Javascript, a semi colon ';' is seen as a 'period' or full stp '.'
+VARIABLES:
+ These are one of the most imortant things that make up Javascript. Variable is a way of saving the value of something that you'll need/use later on in your code. See it like a closet where you keep some of your clothes for later use. A variable is made up of some important parts, they are; the keyword which is "var", then space followed by name giving to the variable, note that the name giving to the variable should describe whatever value you're assigning to the variable. For example, var Gender = 'Female'. Afterr the variable name comes the equal '=' sign. Which is like an assignment. Then the value to be assigned to the variable for example the 'Female' in var Gender = 'Female' is the value assigned to the Variable name Gender. Lastly, a semi colon to mark the end of your statement. In Javascript, a semi colon ';' is seen as a 'period' or full stp '.'
 
 
 
 
-STRING: A string in Javascript is like your english word, say 'come' or 'comb'. This word can be anything, from the name of a person to the name of ann animal, city, object or anything thing at all and is enclosed in a single or double quote. That is, it must be between a quote like this 'Hello' or "Hello". This two are still the same. But if it doesnt have any quote around it and it looks like this Hello then it is not a string. 
+STRING:
+ A string in Javascript is like your english word, say 'come' or 'comb'. This word can be anything, from the name of a person to the name of ann animal, city, object or anything thing at all and is enclosed in a single or double quote. That is, it must be between a quote like this 'Hello' or "Hello". This two are still the same. But if it doesnt have any quote around it and it looks like this Hello then it is not a string. 
 
 
 

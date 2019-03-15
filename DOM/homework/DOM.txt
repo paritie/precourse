@@ -1,0 +1,14 @@
+*DOM:
+DOM is an acronym that stands for Document Object Model. It creates a model from  the HTML document when a web browser loads a page. But with the help of Javascript, we can manipulate this model. Like adding and removing elements, changing attributes of elements, and changing styling of elements. 
+
+
+
+
+DOM ELEMENT SELECTORS:
+There are five element selectors and they are; `document.getElementsByClassName`, `document.getElementById`, `document.querySelector`, `document.querySelectorAll`, `document.createElement`. 
+
+
+
+
+DOM EVENTS:
+These are the like instructions that tell the operating system when to carry  out and event. Events are anything from a click, to a mouse entering the content area, to an image download finishing. 
