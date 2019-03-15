@@ -71,7 +71,7 @@ const id = 2;
 	console.log(2);
 
 // Keven's email
-const email = "kmummery2@wikimedia.org";
+const email = "kmummery2@wikimedia.org"
 	console.log("kmummery2@wikimedia.org");
 
 // Gannie's name
@@ -79,9 +79,9 @@ const name = "Gannie";
 	console.log("Gannie");
 
 // Antonietta's Gender
-const gender = "F";
+const gender = "F"
 	console.log("F");
-}
+
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
