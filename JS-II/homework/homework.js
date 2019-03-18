@@ -18,9 +18,7 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
-  const language = German;
-  const language = Mandarin;
-  const language = Spanish;
+    const language = ['German','Mandarin','Spanish'];
 
   if (German || Mandarin || Spanish) {
     console.log('Hola');
@@ -32,8 +30,7 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
-  const num = 10;
-  const num = 5;
+  const num = [10, 5];
 
   if ('num' === 10) {
     console.log('true');
