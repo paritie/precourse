@@ -1,0 +1,62 @@
+* `FOR`:
+The 'For' loop is a way of instructing the system to evaluate the codes until it gets what we are looking for and returns it. The for loop's syntax is similar to the if statement but the 'for' loop is a little complex. The for loop syntax is made up of 3 compoonents, first is the 'for' keyword. Followed by a parenthesss. Inside this parentheses there are three things that should be included, that is declaration of a variable. That is assigning a value to a variable for example, x = 1; Then the second thing to be included is the conditional expression. That is the expression that your system evaluates until it returns false, that is when it is no longer true. for example x < 10; Lastly we have the variable increment. That is the addition of one to the current value of your variable, the increment is represented by double pluss sign with your variable in front. x++; All three statements inside your parentheses must end with a semicolon. Thenn curly braces follow your parentheses. Here is an example. 
+
+
+```javascript
+    for (let x = 1     ; x < 10                 ; x++          ) {
+    // | declare a var | conditional expression | increment var|
+        console.log(x);
+    }
+```
+
+
+
+
+* `&&` 
+The && is a logical operator called the 'AND' operator. It is represented by two ampersands. It checks if the two expressions in your parentheses are true. If both are not true, it will return false. But if both are true, it will return true. Here is an example;
+```javascript
+    if (100 > 10 && 10 === 10) {
+        console.log('Both statements are true, so this code will be run');
+    }
+    
+    if (10 === 9 && 10 > 9) {
+        console.log('One of the statements is false, so the && will return false, this code will not be run');
+    } 
+```
+
+
+
+* `||`
+This is the 'OR' operator. It is represented by two vertical bars '||'. Unlike the '&&' operator, the '||' operator determines if one of the statements is true. It will return true if it happen that one of the statements are true. But it will return false if bot statements are false. 
+Here is an example;
+
+```javascript
+    if (100 > 10 || 10 === 10) {
+        console.log('Both statements are true, so this code will be run');
+    }
+    
+    if (10 === 9 || 10 > 9) {
+        console.log('One of the statements is true so the || will return true, this code will be run');
+    } 
+
+    if (10 === 9 || 1 > 9) {
+        console.log('Both of the statements are false, so the || will return false. This code will not be run.');
+    } 
+```
+
+
+
+
+* `!`
+The final logical operator is the 'NOT' operator. It is represented by an exclamation mark. '!'. The 'NOT' operator returns the opposite of the boolean value of what is passed to it. 
+
+
+```javascript
+    if (!false) {
+        console.log('The ! will return true, because it is the opposite of false. This code will be run');
+    }
+
+    if (!(1 === 1)) {
+        console.log('1 does equal 1, so that expression returns true. The ! operator will then return the opposite of that. This code will NOT run.');
+    }
+```
