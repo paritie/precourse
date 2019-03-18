@@ -24,7 +24,7 @@ const intern1 ={
 	"email": "mmelloy0@psu.edu",
 	"gender": "F"
 };
-console.log('intern1');
+console.log(intern1);
 
 const intern2 ={
 	"id": 2,
@@ -32,7 +32,7 @@ const intern2 ={
 	"email": "kdiben1@tinypic.com"
 	"gender": "M"
 };
-console.log('intern2');
+console.log(intern2);
 
 
 const intern3 ={
@@ -41,7 +41,7 @@ const intern3 ={
 	"email": "kmummery2@wikimedia.org"
 	"gender": "M"
 };
-console.log('intern3');
+console.log(intern3);
 
 const intern4 ={
 	"id": 4,
@@ -49,7 +49,7 @@ const intern4 ={
 	"email": "gmartinson3@illinois.edu"
 	"gender": "M"
 };
-console.log('intern4');
+console.log(intern4);
 
 const intern5 ={
 	"id": 5,
@@ -57,7 +57,7 @@ const intern5 ={
 	"email": "adaine5@samsung.com"
 	"gender": "F"
 };
-console.log('intern5');
+console.log(intern5);
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
@@ -72,7 +72,7 @@ const id = 2;
 
 // Keven's email
 const email = "kmummery2@wikimedia.org"
-	console.log("kmummery2@wikimedia.org");
+	console.log(email);
 
 // Gannie's name
 const name = "Gannie";
@@ -80,7 +80,7 @@ const name = "Gannie";
 
 // Antonietta's Gender
 const gender = "F"
-	console.log("F");
+	console.log(gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
