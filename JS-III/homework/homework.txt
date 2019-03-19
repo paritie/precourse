@@ -1,0 +1,3 @@
+ARRAY
+
+An array is a way of keeping a list of items under the same variable. That is, they are contained in the same variable and share a variable name. Arrays are like storage containers for collection of data. To build an array is quite simple. You declare your variable and set the square bracket []. You can then add as many strings, booleans or numbers as you want to the array. These strings, booleans or and numbers are seperated by a comma. 
