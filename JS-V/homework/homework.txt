@@ -1,0 +1,8 @@
+* `prototype`
+
+Prototype is a class's unique way of setting a method once and giving everyobject of that class access to those methods. This is a way of preventing the recreation of methods each time we create a new class object with methods. Because the recreation of methods that happens whenever a new class object with methods is created actually consumes a lot of computer memeory. 
+
+
+
+	* Constructors
+A constructor which is also known as class that share much of the same functionality as regular objects. But classes expand on the functionality greatly. Classes are useful for creating many objects that share some of the same properties and methods. 
