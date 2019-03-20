@@ -1,0 +1,44 @@
+    * Objects
+
+ Objects and arrays are similar in some ways and very different in others. Where arrays hold multiple items related to each other, Objects will hold a lot of information about one thing. Objects use braces (`{}`) unlike arrays that use square brackets.  objects use a concept called key:value pairs. The key is the identifier and the value is the value we want to save to that key. These keys are seperated by a comma. No semicolon is used in an object. This is an example of an object. 
+ ``javascript
+    const newObj = {};
+
+
+	* Properties
+
+ You must know that objects use a concept called key:value pairs. The key is the identifier which is also known as the 'property' and the value is the value we want to save to that key(property). The syntax is "key: value". Objects can hold many key:value pairs, they must be separated by a comma (no semi-colons inside of an object!). Properties(key) are unique in an object, there can be only one key of that name. Although, multiple keys can have the same value. Values can be any Javascript type, string, number, boolean, array, function or even another object. This is an example of a propertie enclosed in the curly braces of an object;
+
+```javascript
+    const user = {
+        username: 'dan.frehner',
+        password: 'abc123',
+        lovesJavascript: true,
+        favoriteNumber: 42,
+    };
+``` 
+In the above example, the key 'username', 'password', lovesJavascript and favoriteNumber are all properties (keys), and the strings and numbers after each semicolon are the values. Note that each Property(key) : Value ends with a comma and not a semicolon.
+
+
+
+	* Methods
+
+Functions saved on an object are called methods.  `.length`, `.push`, `.pop`, are examples of methods. Methods can be called using dot notation and trailing parentheses. We can also call a method using arguments. 
+
+
+
+
+	* for in loop
+
+The for...loop is a way of iterating over each key:value pair in our object. Iterating asin repetition until a certain condition is met. A variable is declared in the parentheses, the keyword 'in' and the name of the objects. This will loop over each key in the object and finish when all of the keys have been iterated over.
+
+
+	
+	* Dot notation vs bracket notation
+
+
+	With dot notation we can just call the object name, a dot, and the key(property) name. Just as we call the `.length` property on an array. 
+
+
+
+	Bracket notation is just like calling an item on an array, although with brackets we MUST use a string or number, or variable pointing to a string or number. Each key can be called by wrapping it with quotes:
