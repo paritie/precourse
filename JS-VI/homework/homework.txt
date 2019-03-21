@@ -1,0 +1,3 @@
+	* Callback Functions
+
+Callbacks are functions that are passed as arguments to another function in Javascript. . These functions can be called anytime and passed arguments within the function. Callbacks are important to Javascript. The `cb` argument variable is used as your callback.
