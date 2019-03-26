@@ -58,5 +58,5 @@ in this folder, you are in the wrong place.
   display: flex;
   justify-content: flex-end;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 }
