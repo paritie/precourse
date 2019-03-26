@@ -1,0 +1,5 @@
+Variable: This is analogous to a bucket which can hold any value.A bucket doesn't specify what type of object you put in it.
+Strings: A string is a collection of characters clustered together that makes sense or not.characters may include symbols, whitespaces, e.t.c
+Functions: Functions is used to hold repititive programs. it helps makes code elegant, concise and easily debuggable.
+if statements: These are control structures that specifies decision making.
+boolean values: true or false values. Can be used in an if statement.
