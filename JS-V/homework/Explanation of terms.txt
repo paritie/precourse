@@ -1,0 +1,2 @@
+Prototype: prototype is a way javascript uses to get over the enormous constraint methods in classes poses to memory.
+constructors: They are used to create an instance of a class.

@@ -1,0 +1,6 @@
+Objects: this is a container that can hold different variety of values.
+Properties: this is like the features of an object.
+Methods: this is like the behaviour of what the object can do, its actions.
+for in loop: A way to query through all the properties and methods of an object.
+Dot notation vs bracket notation: Dot notation uses the conventional period together with either property name or method name to access the pro[erties and methods of an object.
+				the bracket notation uses square brackets to access properties of an object.

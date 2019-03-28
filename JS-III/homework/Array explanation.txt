@@ -1,0 +1,1 @@
+Arrays: it is the collection of multiple variables that can hold values  
