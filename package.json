@@ -1,27 +1,21 @@
 {
-  "name": "paritieprecourse",
+  "name": "precourse",
   "version": "1.0.0",
-  "description": "a repo containing materials and assignments",
+  "description": "This repo contains the instruction material and assignments for Lambda School's `Web Dev 101 Mini Bootcamp`.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint JS-VI/homework/homework.js JS-V/homework/homework.js JS-IV/homework/homework.js JS-III/homework/homework.js  JS-II/homework/homework.js Intro-JS/homework/homework.js && jest"
-
+    "test": "eslint Lesson09-JS-VI/homework/homework.js Lesson08-JS-V/homework/homework.js Lesson07-JS-IV/homework/homework.js Lesson06-JS-III/homework/homework.js  Lesson05-JS-II/homework/homework.js Lesson04-JS-I/homework/homework.js && jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paritie/precourse.git"
   },
-  "keywords": [
-    "paritie",
-    "precourse"
-  ],
-  "author": "Paritie",
+  "author": "Daniel Frehner and Ben Nelson, Lambda School",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paritie/precourse/issues"
+    "url": "https://github.com/paritiel/precourse/issues"
   },
   "homepage": "https://github.com/paritie/precourse#readme",
-
   "devDependencies": {
     "eslint": "^4.13.1",
     "jest": "^22.0.3"
