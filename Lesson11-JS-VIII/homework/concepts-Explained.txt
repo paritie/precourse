@@ -1,0 +1,4 @@
+Concepts Explained like to a 12 year old.
+
+Recursion: This is just like going round and round and round in a loop. Function is being used to go in round in a loop. By making one function call
+itself it creates a way a work in a loop.
