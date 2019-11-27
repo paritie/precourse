@@ -1,0 +1,4 @@
+Concepts Explained like to a 12 year old.
+
+Closures: This is a concept that states that functions that are returned by the return statements of another function first has visibility of the
+variables in the outer function before variables defined outside the functions.
