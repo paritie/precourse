@@ -1,0 +1,11 @@
+Concepts Explained like to a 12 year old.
+
+
+For: (For loop), this is a just a way to do something over again a certain number of times. Like texting to multiply people. Instead of texting one message to
+everybody in your contact list you just need to loop through all the numbers you want to text to and send the message every time.
+
+&&: This is a way to check if two conditions are true. if the condition to the left is true and the one to the right is also true, it amounts to true.
+if any one is false it amounts to false.
+
+||: This is a way to check if any one condition is true. if either of the condition to the left or to the right is true, it amounts to true.
+if both conditions to the left and right is false it amounts to false.

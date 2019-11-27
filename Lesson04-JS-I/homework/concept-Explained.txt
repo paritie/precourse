@@ -1,0 +1,17 @@
+Concepts Explained like a 12 year old.
+
+Variables: These are like a container or a bucket that can hold things. Those things are called values.
+
+Strings: This is a value that are like a word or a sentence in English language which can be stored in a variable. They have to be within '', "", or ``.
+
+Functions: These are like a phone you use to make calls. To talk to person A you just call the A call function and then you can speak to person A,
+likewise if you want to speak to person B, call the B call function. This is so because functions can hold a set of tasks you will likely call often.
+
+(arguments): arguments are used with functions. they are used to pass values to functions to change the state or response of the function being called.
+
+(return): Functions return values. just like when you call, the phone returns to you the person you called or a switched off response or an unavailable
+response. And since it returns values, the value(s) can be stored in a variable.
+
+if statements: These are used to answer Yes or No questions, like does A exist, if yes do this, or if No do not do this.
+
+Boolean values: These are also like Yes or No but they are values. either true or false

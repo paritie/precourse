@@ -1,0 +1,9 @@
+Concepts Explained like to a 12 year old.
+
+Objects: Objects are like higher forms of variables, that shed or tell more details about what something or an idea can do through properties and Methods.
+Properties: There are like the features or details of an object. They help us know more about an object.
+Methods: They are like behaviors. They tell more about what an object can do.
+For in loop: This is a method in javaScript that gives us an easy way to loop/go through all the keys in an object.
+Dot Notation vs Bracket Notation: These both provide a way to access the individual properties or methods of an array. Dot notation uses a dot after
+username and the particular property you want to access after the dot. Bracket notation uses the name of the object and then the particular property
+inside quotes inside square brackets
